@@ -40,8 +40,7 @@ jobs:
         run: npm --prefix manager-web run build
 
       - name: Add the reviewed publication to the site
-        run: |
-          cp -R published manager-web/dist/published
+        run: cp -R published/. manager-web/dist/published/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
