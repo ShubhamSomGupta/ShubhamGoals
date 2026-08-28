@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState, type KeyboardEvent, type ReactNode } from "react";
-import { isAllowedAsset, isHttps, reportText, validatePublication, type ManagerPublicationBundle, type PublishedEvidenceItem, type PublishedGoal, type PublishedReport, type PublishedReportNode } from "./publication";
+import { useEffect, useMemo, useRef, useState, type ClipboardEvent, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
+import { isAllowedAsset, isHttps, reportText, validatePublication, verifyManagerPin, type ManagerPublicationBundle, type PublishedEvidenceItem, type PublishedGoal, type PublishedReport, type PublishedReportNode } from "./publication";
 
 type Page = "goals" | "reports";
 type ReportTab = "managerReady" | "annual" | "categories" | "goals" | "commitment";
@@ -18,6 +18,7 @@ export default function App() {
   const [error, setError] = useState<"none" | "missing" | "invalid" | "unsupported">("none");
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState<Page>("goals");
+  const [unlocked, setUnlocked] = useState(false);
 
   useEffect(() => {
     let active = true;
@@ -48,6 +49,8 @@ export default function App() {
     return <StatePage title={copy[0]} resolution={copy[1]} />;
   }
 
+  if (bundle.access.mode === "pin" && !unlocked) return <ManagerPinDialog verifier={bundle.access.verifier} onUnlock={() => setUnlocked(true)} />;
+
   return <div className="manager-shell">
     <a className="skip-link" href="#main-content">Skip to content</a>
     <header className="manager-header">
@@ -63,6 +66,83 @@ export default function App() {
       {page === "goals" ? <GoalsPage bundle={bundle} /> : <ReportsPage bundle={bundle} />}
     </main>
   </div>;
+}
+
+function ManagerPinDialog({ verifier, onUnlock }: { verifier: string; onUnlock: () => void }) {
+  const [digits, setDigits] = useState(["", "", "", ""]);
+  const [error, setError] = useState<string | null>(null);
+  const [checking, setChecking] = useState(false);
+  const inputs = useRef<Array<HTMLInputElement | null>>([]);
+
+  useEffect(() => { inputs.current[0]?.focus(); }, []);
+
+  const updateDigit = (index: number, value: string) => {
+    const digit = value.replace(/\D/g, "").slice(-1);
+    setDigits((current) => current.map((item, itemIndex) => itemIndex === index ? digit : item));
+    setError(null);
+    if (digit && index < 3) inputs.current[index + 1]?.focus();
+  };
+
+  const keyDown = (event: KeyboardEvent<HTMLInputElement>, index: number) => {
+    if (event.key === "Backspace" && !digits[index] && index > 0) inputs.current[index - 1]?.focus();
+    if (event.key === "ArrowLeft" && index > 0) { event.preventDefault(); inputs.current[index - 1]?.focus(); }
+    if (event.key === "ArrowRight" && index < 3) { event.preventDefault(); inputs.current[index + 1]?.focus(); }
+  };
+
+  const paste = (event: ClipboardEvent<HTMLInputElement>) => {
+    const value = event.clipboardData.getData("text").replace(/\D/g, "").slice(0, 4);
+    if (!value) return;
+    event.preventDefault();
+    const next = Array.from({ length: 4 }, (_, index) => value[index] ?? "");
+    setDigits(next);
+    setError(null);
+    inputs.current[Math.min(value.length, 4) - 1]?.focus();
+  };
+
+  const submit = async (event: FormEvent) => {
+    event.preventDefault();
+    const pin = digits.join("");
+    if (pin.length !== 4) { setError("Enter all four digits."); return; }
+    setChecking(true);
+    const matches = await verifyManagerPin(pin, verifier);
+    setChecking(false);
+    if (matches) { onUnlock(); return; }
+    setDigits(["", "", "", ""]);
+    setError("That PIN does not match. Check the digits and try again.");
+    inputs.current[0]?.focus();
+  };
+
+  return <main className="pin-lock-page">
+    <section className="pin-dialog" role="dialog" aria-modal="true" aria-labelledby="pin-dialog-title" aria-describedby="pin-dialog-description">
+      <span className="pin-lock-mark" aria-hidden="true">✓</span>
+      <p className="eyebrow">Goal Evidence Tracker</p>
+      <h1 id="pin-dialog-title">Enter your PIN</h1>
+      <p id="pin-dialog-description">Use the four-digit PIN shared by the workspace owner.</p>
+      <form onSubmit={(event) => void submit(event)}>
+        <fieldset className="pin-entry" aria-label="Four-digit PIN">
+          <legend className="sr-only">Four-digit PIN</legend>
+          {digits.map((digit, index) => <input
+            key={index}
+            ref={(element) => { inputs.current[index] = element; }}
+            type="password"
+            inputMode="numeric"
+            autoComplete={index === 0 ? "one-time-code" : "off"}
+            pattern="[0-9]"
+            maxLength={1}
+            value={digit}
+            aria-label={`PIN digit ${index + 1}`}
+            aria-invalid={Boolean(error)}
+            onChange={(event) => updateDigit(index, event.target.value)}
+            onKeyDown={(event) => keyDown(event, index)}
+            onPaste={paste}
+          />)}
+        </fieldset>
+        {error && <p className="pin-error" role="alert">{error}</p>}
+        <button type="submit" disabled={checking || digits.some((digit) => !digit)}>{checking ? "Checking…" : "Open manager view"}</button>
+      </form>
+      <small>Temporary access screen for pilot testing.</small>
+    </section>
+  </main>;
 }
 
 function StatePage({ title, resolution, busy = false }: { title: string; resolution: string; busy?: boolean }) {

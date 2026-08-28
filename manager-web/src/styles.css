@@ -136,6 +136,21 @@ a { color: var(--accent); }
 .state-page p { max-width: 560px; margin: 0; color: var(--muted); }
 .state-mark { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 13px; background: var(--accent-soft); color: var(--accent); font-weight: 800; }
 
+.pin-lock-page { display: grid; min-height: 100vh; place-items: center; padding: 24px; background: radial-gradient(circle at top, #1a2534 0, var(--bg) 48%); }
+.pin-dialog { display: grid; width: min(100%, 440px); justify-items: center; padding: clamp(30px, 7vw, 52px); border: 1px solid var(--border); border-radius: 24px; background: var(--panel); box-shadow: 0 28px 80px rgba(0,0,0,.42); text-align: center; }
+.pin-lock-mark { display: grid; width: 58px; height: 58px; margin-bottom: 22px; place-items: center; border-radius: 18px; background: var(--accent-soft); color: var(--accent); font-size: 1.45rem; font-weight: 900; }
+.pin-dialog .eyebrow { margin: 0 0 8px; }
+.pin-dialog h1 { margin: 0; font-size: clamp(1.8rem, 7vw, 2.35rem); letter-spacing: -.035em; }
+.pin-dialog > p:not(.eyebrow) { margin: 10px 0 0; color: var(--muted); line-height: 1.5; }
+.pin-dialog form { display: grid; width: 100%; gap: 18px; margin-top: 30px; }
+.pin-entry { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; border: 0; }
+.pin-entry input { width: 100%; min-width: 0; aspect-ratio: 1; border: 1px solid var(--border-strong); border-radius: 14px; background: var(--panel-3); color: var(--text); font-size: clamp(1.45rem, 7vw, 2rem); font-weight: 800; text-align: center; caret-color: var(--accent); }
+.pin-entry input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 20%, transparent); }
+.pin-dialog form button { min-height: 48px; border: 1px solid #9bbaff; border-radius: 12px; background: var(--accent); color: #0d1c38; font-weight: 800; cursor: pointer; }
+.pin-dialog form button:disabled { border-color: var(--border); background: var(--panel-2); color: var(--faint); cursor: not-allowed; }
+.pin-error { margin: -5px 0 0 !important; color: var(--danger) !important; font-size: .82rem; }
+.pin-dialog > small { margin-top: 20px; color: var(--faint); font-size: .72rem; }
+
 @media (max-width: 900px) {
   .manager-shell { grid-template: auto auto minmax(0, 1fr) / 1fr; }
   .manager-header { position: static; grid-column: 1; padding: 14px 20px; }
