@@ -1,0 +1,66 @@
+name: Deploy manager view to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/pages.yml"
+      - "manager-web/**"
+      - "published/manager-view.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: manager-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install manager-view dependencies
+        run: npm install --prefix manager-web --ignore-scripts
+
+      - name: Validate published data
+        run: npm --prefix manager-web run validate:publication -- ../published/manager-view.json
+
+      - name: Build manager view
+        run: npm --prefix manager-web run build
+
+      - name: Add the reviewed publication to the site
+        run: |
+          cp -R published manager-web/dist/published
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: manager-web/dist
+
+  deploy:
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy Pages site
+        id: deployment
+        uses: actions/deploy-pages@v4

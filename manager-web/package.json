@@ -1,0 +1,27 @@
+{
+  "name": "goal-manager-view",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "preview:open": "vite preview --open",
+    "test": "vitest run",
+    "validate:publication": "node scripts/validate-publication.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^7.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "~5.8.0",
+    "vitest": "^3.0.0"
+  }
+}

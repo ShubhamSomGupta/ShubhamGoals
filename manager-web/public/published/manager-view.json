@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "publicationId": "publication-placeholder",
+  "publishedAt": "2026-08-27T00:00:00.000Z",
+  "contentFingerprint": "placeholder",
+  "year": {
+    "id": "year-placeholder",
+    "label": "Not published",
+    "status": "planning"
+  },
+  "lenses": [],
+  "goals": [],
+  "reports": {
+    "managerReady": {
+      "id": "manager-ready",
+      "kind": "manager_ready",
+      "title": "No manager-ready summary published",
+      "subtitle": "Publish from the desktop application",
+      "generatedAt": "2026-08-27T00:00:00.000Z",
+      "evidenceDisclosure": "metadata_only",
+      "privacyNote": "No goal data has been published yet.",
+      "categoryId": null,
+      "goalId": null,
+      "sections": []
+    },
+    "annual": {
+      "id": "annual",
+      "kind": "annual",
+      "title": "No annual report published",
+      "subtitle": "Publish from the desktop application",
+      "generatedAt": "2026-08-27T00:00:00.000Z",
+      "evidenceDisclosure": "metadata_only",
+      "privacyNote": "No goal data has been published yet.",
+      "categoryId": null,
+      "goalId": null,
+      "sections": []
+    },
+    "categories": [],
+    "goals": [],
+    "commitment": {
+      "id": "commitment",
+      "kind": "commitment",
+      "title": "No commitment reflection published",
+      "subtitle": "Publish from the desktop application",
+      "generatedAt": "2026-08-27T00:00:00.000Z",
+      "evidenceDisclosure": "metadata_only",
+      "privacyNote": "No goal data has been published yet.",
+      "categoryId": null,
+      "goalId": null,
+      "sections": []
+    }
+  },
+  "assets": []
+}
