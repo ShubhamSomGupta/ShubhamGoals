@@ -1,54 +1,1819 @@
 {
   "schemaVersion": 1,
-  "publicationId": "publication-placeholder",
-  "publishedAt": "2026-08-27T00:00:00.000Z",
-  "contentFingerprint": "placeholder",
+  "publicationId": "publication-470642de03dcf543",
+  "publishedAt": "2026-08-28T13:11:07.135Z",
+  "contentFingerprint": "470642de03dcf543bb3bcf6ebb8894beb5ebd3ac00846020db0039f882ac1589",
   "year": {
-    "id": "year-placeholder",
-    "label": "Not published",
-    "status": "planning"
+    "id": "year-2026",
+    "label": "2026",
+    "status": "active"
   },
-  "lenses": [],
-  "goals": [],
+  "lenses": [
+    {
+      "id": "cat-2026-elevate",
+      "name": "Elevate",
+      "description": "Customer experience, execution excellence, and design-development alignment.",
+      "color": "#2D6A9F",
+      "sortOrder": 10
+    },
+    {
+      "id": "cat-2026-simplify",
+      "name": "Simplify",
+      "description": "Predictable and repeatable design workflows.",
+      "color": "#76518F",
+      "sortOrder": 20
+    },
+    {
+      "id": "cat-2026-care",
+      "name": "Care",
+      "description": "Structured user testing and actionable insight.",
+      "color": "#267464",
+      "sortOrder": 30
+    },
+    {
+      "id": "cat-2026-unite",
+      "name": "Unite",
+      "description": "Strategic communication, shared standards, and collaboration.",
+      "color": "#9A572C",
+      "sortOrder": 40
+    },
+    {
+      "id": "cat-2026-commitments",
+      "name": "Commitments",
+      "description": "The professional behaviours that make outcomes sustainable.",
+      "color": "#59636E",
+      "sortOrder": 50
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-70072a60-5ece-4ce8-b6f5-5ea6b481e7de",
+      "title": "Goal 3",
+      "description": "Generate actionable insights through structured user testing workflows and embed those insights directly into product decisions.",
+      "status": "in_progress",
+      "progress": 50,
+      "confidence": 50,
+      "dueDate": null,
+      "sortOrder": 0,
+      "xdLensIds": [
+        "cat-2026-care"
+      ],
+      "xdLensNames": [
+        "Care"
+      ],
+      "philipsLensNames": [
+        "Execution Excellence",
+        "People Development / Environmental",
+        "Simplification"
+      ],
+      "confirmedEvidenceCount": 1,
+      "sections": [
+        {
+          "id": "goal-section-4b641625-0bb6-468c-8d10-fe7f6287d5a5",
+          "title": "Structured User Testing Workflow",
+          "sortOrder": 0,
+          "actions": [
+            {
+              "id": "goal-action-00d97f61-d7ac-4bbd-8bf6-68623fe1c57b",
+              "title": "Define and document a repeatable User Testing Workflow  by Q2 2026.",
+              "status": "completed",
+              "sortOrder": 0
+            }
+          ]
+        },
+        {
+          "id": "goal-section-7b03657b-6e4a-4881-9d6b-cf7bea60166e",
+          "title": "Insight-to-Action Traceability",
+          "sortOrder": 1,
+          "actions": [
+            {
+              "id": "goal-action-eb5c3901-a13e-4a48-8161-06ec89c09867",
+              "title": "Conduct at least 2 structured user testing activities per active project per year",
+              "status": "completed",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-5830645d-ca61-4efd-90e9-2b5ffdc2442c",
+              "title": "Ensure at least of 80% of test finding are linked to back to backlog",
+              "status": "completed",
+              "sortOrder": 1
+            },
+            {
+              "id": "goal-action-3d9fa3c0-8050-4f5b-91b1-71acde725502",
+              "title": "User Testing Insight Repository : Become Subject Matter Expert on Platform User Insights",
+              "status": "in_progress",
+              "sortOrder": 2
+            },
+            {
+              "id": "goal-action-6f0a8774-678d-465f-8e29-5b8cdb6f83f3",
+              "title": "User Testing Insight Repository : Generate key pain points and opportunity areas",
+              "status": "in_progress",
+              "sortOrder": 3
+            },
+            {
+              "id": "goal-action-7de65b82-d95a-4548-b0cb-b8ac3fbe47a3",
+              "title": "User Testing Insight Repository : Cluster user comments into themes",
+              "status": "in_progress",
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "goal-section-145c5ff0-43cf-401c-9311-81bf58456db5",
+          "title": "Knowledge Sharing",
+          "sortOrder": 2,
+          "actions": [
+            {
+              "id": "goal-action-63b81f5a-0e3d-4ce3-a70c-5af00aec2e01",
+              "title": "Present user testing learnings at least 2 times internally (guild, demo, stakeholder forum).",
+              "status": "completed",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-34306fff-4f2c-43ed-8473-359f89a9462d",
+              "title": "Conduct at least 1 customer site visit or co-creation session.",
+              "status": "in_progress",
+              "sortOrder": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-07cea9e2-496c-43d1-8061-a2126250bc07",
+      "title": "Commitments",
+      "description": "",
+      "status": "in_progress",
+      "progress": 0,
+      "confidence": 50,
+      "dueDate": null,
+      "sortOrder": 0,
+      "xdLensIds": [
+        "cat-2026-commitments"
+      ],
+      "xdLensNames": [
+        "Commitments"
+      ],
+      "philipsLensNames": [
+        "Customer Experience",
+        "Execution Excellence",
+        "People Development / Environmental",
+        "Simplification"
+      ],
+      "confirmedEvidenceCount": 0,
+      "sections": [
+        {
+          "id": "goal-section-77e0a86e-35dc-4992-8e89-08c1a3c93919",
+          "title": "Commitment 1",
+          "sortOrder": 0,
+          "actions": [
+            {
+              "id": "goal-action-8828a1f2-ce85-4e5a-b981-b2b62c1092b3",
+              "title": "“I commit to delivering high-quality, user-centered design solutions that elevate the UX experience in OneSpace, ensuring alignment with business impact, usability best practices, and measurable design improvements. Through structured design workflows, continuous validation, and data-driven insights, I will drive meaningful enhancements that improve user satisfaction and efficiency.”",
+              "status": "in_progress",
+              "sortOrder": 0
+            }
+          ]
+        },
+        {
+          "id": "goal-section-5a467c0a-4b43-4cbf-a37a-757c13db0324",
+          "title": "Commitment 2",
+          "sortOrder": 1,
+          "actions": [
+            {
+              "id": "goal-action-66271d8f-7ac4-40be-bb21-8753671a98f8",
+              "title": "“I commit to fostering design consistency and simplification by strengthening UX alignment across teams. By driving Filament adoption, refining design patterns, and contributing to a unified component library, I will ensure a seamless, intuitive, and scalable design system that enhances user experience across applications.”",
+              "status": "in_progress",
+              "sortOrder": 0
+            }
+          ]
+        },
+        {
+          "id": "goal-section-89be7c9a-9a09-4c21-af7e-a20dfc9f9abf",
+          "title": "Commitment 3",
+          "sortOrder": 2,
+          "actions": [
+            {
+              "id": "goal-action-aff3518d-0988-4413-8dbf-3e6817af8d03",
+              "title": "“I commit to actively engaging with the design community and contributing to meaningful cross-functional programs. By leading initiatives like the Digital Design Guild, organizing knowledge-sharing sessions, and collaborating with global and social impact teams, I will expand my strategic thinking, elevate design impact, and foster a culture of continuous learning and innovation.”",
+              "status": "in_progress",
+              "sortOrder": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-e0c6174d-307c-455a-8341-6d70f2be36e3",
+      "title": "Goal 1",
+      "description": "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks.",
+      "status": "in_progress",
+      "progress": 36,
+      "confidence": 50,
+      "dueDate": "2026-10-23",
+      "sortOrder": 0,
+      "xdLensIds": [
+        "cat-2026-elevate"
+      ],
+      "xdLensNames": [
+        "Elevate"
+      ],
+      "philipsLensNames": [
+        "Customer Experience",
+        "Execution Excellence",
+        "Simplification"
+      ],
+      "confirmedEvidenceCount": 0,
+      "sections": [
+        {
+          "id": "goal-section-fd8df942-882c-4c2f-99c5-c8a36c38d883",
+          "title": "AI Productivity",
+          "sortOrder": 0,
+          "actions": [
+            {
+              "id": "goal-action-e1ac53ff-5a25-4228-a716-92c6f86270bf",
+              "title": "Create empty states and error messaging faster",
+              "status": "in_progress",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-87abca98-6260-4317-a6e8-06b135cb5fd0",
+              "title": "Reduce requirement alignment documentation time by 30% by Q4 2026.",
+              "status": "completed",
+              "sortOrder": 1
+            },
+            {
+              "id": "goal-action-372b06fe-2fdf-4f7e-ac43-00d48f79d611",
+              "title": "Auto-summarising stakeholder notes",
+              "status": "completed",
+              "sortOrder": 2
+            },
+            {
+              "id": "goal-action-c7aef6ef-c565-4fa2-9916-08f4ccbadb7f",
+              "title": "Converting workshop outputs into structured requirements",
+              "status": "in_progress",
+              "sortOrder": 3
+            },
+            {
+              "id": "goal-action-2fdc604a-1f5a-4fd6-8a78-370a904f777b",
+              "title": "Generate UX copy variations",
+              "status": "in_progress",
+              "sortOrder": 4
+            },
+            {
+              "id": "goal-action-ec096d30-fa91-40e0-9494-5697b41dbf4c",
+              "title": "Generate edge-case flows",
+              "status": "in_progress",
+              "sortOrder": 5
+            }
+          ]
+        },
+        {
+          "id": "goal-section-540c66b4-d630-443b-b413-5c2d9cc8920a",
+          "title": "Telemetry tracking by Q3 2026",
+          "sortOrder": 1,
+          "actions": [
+            {
+              "id": "goal-action-4166ea7c-a5c2-4dcd-a2ce-71d918205ed9",
+              "title": "Define UX success metrics for at least 1 critical workflow.",
+              "status": "not_started",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-5256cad8-1042-4169-9fb7-bc7f60b2bead",
+              "title": "Account Activation & Onboarding",
+              "status": "in_progress",
+              "sortOrder": 1
+            },
+            {
+              "id": "goal-action-2f943b7e-cec3-4c1a-bf94-a91f124de178",
+              "title": "Deliver at least 1 telemetry-driven UX improvement.",
+              "status": "not_started",
+              "sortOrder": 2
+            }
+          ]
+        },
+        {
+          "id": "goal-section-b625372c-c091-48c3-9cf9-e07a3503f19e",
+          "title": "UX Debt Reduction",
+          "sortOrder": 2,
+          "actions": [
+            {
+              "id": "goal-action-b70a116b-2861-446d-a338-e35f1749f862",
+              "title": "Conduct a monthly Dev–Design Gap analysis meeting (sanity check on implemented vs. designed flows).",
+              "status": "completed",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-7d90a443-c894-4dd8-a42e-dda689983b90",
+              "title": "Identify and log UX debt items in backlog. (37 Identified in Q1 26)",
+              "status": "in_progress",
+              "sortOrder": 1
+            },
+            {
+              "id": "goal-action-424e53b7-dba8-4a11-9fb2-a60dd4adf057",
+              "title": "Identify and report UX inconsistencies, and push for reduction by 50% by Q2-3 2026. ( 18-19 solved in Q2-3 26)",
+              "status": "completed",
+              "sortOrder": 2
+            }
+          ]
+        },
+        {
+          "id": "goal-section-7da2af23-7820-493f-93d6-fc4b53b91d12",
+          "title": "Quality Discipline",
+          "sortOrder": 3,
+          "actions": [
+            {
+              "id": "goal-action-ba2bfcc2-a30a-4f33-85f9-efa9a6998722",
+              "title": "Create requirement document before every feature initiation",
+              "status": "completed",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-b0101444-f494-437c-b72e-d55848c55cb4",
+              "title": "1 design critique per quarter per active project.",
+              "status": "in_progress",
+              "sortOrder": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-0250df96-cf28-4652-93b3-119c56e952ec",
+      "title": "Goal 2",
+      "description": "Simplify the design process clarity in Customer profile projects by implementing a repeatable, standardised product/feature design workflow that increases predictability and stakeholder confidence.",
+      "status": "in_progress",
+      "progress": 11,
+      "confidence": 50,
+      "dueDate": null,
+      "sortOrder": 0,
+      "xdLensIds": [
+        "cat-2026-simplify"
+      ],
+      "xdLensNames": [
+        "Simplify"
+      ],
+      "philipsLensNames": [
+        "Execution Excellence"
+      ],
+      "confirmedEvidenceCount": 0,
+      "sections": [
+        {
+          "id": "goal-section-9490de04-605a-4b4f-8764-e4ef1668ac97",
+          "title": "Input",
+          "sortOrder": 0,
+          "actions": [
+            {
+              "id": "goal-action-b0d74165-8a80-4234-a311-d721a42f79fc",
+              "title": "Apply standardised workflow: Requirement Alignment doc",
+              "status": "in_progress",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-39289a58-00e7-409b-9918-72e5fd6ddc75",
+              "title": "Apply standardised workflow: UX principle checklist and DoD checklist for Dev Handoff",
+              "status": "in_progress",
+              "sortOrder": 1
+            },
+            {
+              "id": "goal-action-526408af-574d-458f-91a1-50c6d282ec01",
+              "title": "Apply standardised workflow: Decision Log",
+              "status": "in_progress",
+              "sortOrder": 2
+            },
+            {
+              "id": "goal-action-2a544561-db7a-428b-aa48-7b55cc0f1962",
+              "title": "Apply standardised workflow: Single source of truth specs",
+              "status": "in_progress",
+              "sortOrder": 3
+            },
+            {
+              "id": "goal-action-b7b68468-3cd1-4ce9-a565-8fc6d23055f4",
+              "title": "Advocate Integrating simpler DoD in UX Documentation",
+              "status": "completed",
+              "sortOrder": 4
+            },
+            {
+              "id": "goal-action-8283ee14-7bad-422a-be46-43cf4b31cc8d",
+              "title": "Create a template for the team, which will improve productivity and design quality of the team.",
+              "status": "in_progress",
+              "sortOrder": 5
+            },
+            {
+              "id": "goal-action-9c23fa6b-ce2d-4c7f-b245-73cfe5357c2b",
+              "title": "≥80% work tracked in backlog.",
+              "status": "in_progress",
+              "sortOrder": 6
+            },
+            {
+              "id": "goal-action-b49acacc-067a-4290-acbd-1290715700ee",
+              "title": "Ad-hoc work <20%.",
+              "status": "in_progress",
+              "sortOrder": 7
+            },
+            {
+              "id": "goal-action-5997c758-cdf1-4377-9eb9-c602a41fa67c",
+              "title": "≥80% PI goals met from Q3 onward.",
+              "status": "in_progress",
+              "sortOrder": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-f5c9b117-2db9-4c5d-92c3-eefbbeaae7a1",
+      "title": "Goal 4",
+      "description": "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams.",
+      "status": "not_started",
+      "progress": 0,
+      "confidence": 50,
+      "dueDate": null,
+      "sortOrder": 0,
+      "xdLensIds": [
+        "cat-2026-unite"
+      ],
+      "xdLensNames": [
+        "Unite"
+      ],
+      "philipsLensNames": [
+        "People Development / Environmental"
+      ],
+      "confirmedEvidenceCount": 0,
+      "sections": [
+        {
+          "id": "goal-section-579c2637-e0b7-49ea-9a70-acfabc357a54",
+          "title": "Input",
+          "sortOrder": 0,
+          "actions": [
+            {
+              "id": "goal-action-d2fdebc1-50ae-498f-ba5a-bd0a2a329743",
+              "title": "Advocate and secure alignment for at least 1 UX improvement despite initial stakeholder resistance.",
+              "status": "not_started",
+              "sortOrder": 0
+            },
+            {
+              "id": "goal-action-5bea5648-e263-4194-9767-196a81191b51",
+              "title": "Seek mentorship or feedback from senior design leaders or communication experts to strengthen strategic framing.",
+              "status": "not_started",
+              "sortOrder": 1
+            },
+            {
+              "id": "goal-action-a028eac3-9ec1-4123-814f-00126ecdb860",
+              "title": "Contribute at least 1 UX principle or guideline to Service toolkit.",
+              "status": "not_started",
+              "sortOrder": 2
+            },
+            {
+              "id": "goal-action-d16dd6cd-6b49-47c7-adda-bfaf7e9e72d6",
+              "title": "Contribute to 1–2 case studies.",
+              "status": "not_started",
+              "sortOrder": 3
+            },
+            {
+              "id": "goal-action-6375246e-a7fc-42cc-a48b-21fdffb19cc6",
+              "title": "Conduct or participate in design share-outs or storytelling sessions (e.g., guilds, showcases, or cross-team reviews) to refine storytelling clarity and impact.",
+              "status": "not_started",
+              "sortOrder": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "reports": {
     "managerReady": {
-      "id": "manager-ready",
       "kind": "manager_ready",
-      "title": "No manager-ready summary published",
-      "subtitle": "Publish from the desktop application",
-      "generatedAt": "2026-08-27T00:00:00.000Z",
-      "evidenceDisclosure": "metadata_only",
-      "privacyNote": "No goal data has been published yet.",
+      "title": "2026 manager-ready summary",
+      "subtitle": "Intended impact, work completed, outcomes, metrics, learning, and opportunities",
+      "year": {
+        "id": "year-2026",
+        "label": "2026",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31",
+        "status": "active",
+        "createdAt": "2026-01-05T09:00:00Z"
+      },
+      "generatedAt": "2026-08-28T13:11:07.135Z",
+      "evidenceDisclosure": "include_excerpts",
+      "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+      "sections": [
+        {
+          "title": "Goal 3",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": [
+            {
+              "title": "Goal and intended impact",
+              "paragraphs": [
+                "Generate actionable insights through structured user testing workflows and embed those insights directly into product decisions."
+              ],
+              "bullets": [
+                "Status: in progress"
+              ],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "What I did",
+              "paragraphs": [
+                "A confirmed reflection on the work completed has not been added yet."
+              ],
+              "bullets": [],
+              "evidence": [
+                {
+                  "id": "evidence-72a6290d-de09-4078-9362-572c66233ddd",
+                  "title": "Notification Critique Session",
+                  "metadata": "2026-06-11 · screenshot · progress",
+                  "relationship": "progress",
+                  "note": "Had Critique Session for notification centre phase 1 in the team.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
+                  "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Evidence and outcomes",
+              "paragraphs": [
+                "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [
+                {
+                  "id": "evidence-72a6290d-de09-4078-9362-572c66233ddd",
+                  "title": "Notification Critique Session",
+                  "metadata": "2026-06-11 · screenshot · progress",
+                  "relationship": "progress",
+                  "note": "Had Critique Session for notification centre phase 1 in the team.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
+                  "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Progress",
+              "paragraphs": [
+                "Progress: 50%. Confidence: 50%."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Key learning",
+              "paragraphs": [
+                "A confirmed learning or challenge has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Next-year opportunity",
+              "paragraphs": [
+                "A next-year opportunity has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Commitments",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": [
+            {
+              "title": "Goal and intended impact",
+              "paragraphs": [
+                "No intended-impact description is recorded."
+              ],
+              "bullets": [
+                "Status: in progress"
+              ],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "What I did",
+              "paragraphs": [
+                "A confirmed reflection on the work completed has not been added yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Evidence and outcomes",
+              "paragraphs": [
+                "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Progress",
+              "paragraphs": [
+                "Progress: 0%. Confidence: 50%."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Key learning",
+              "paragraphs": [
+                "A confirmed learning or challenge has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Next-year opportunity",
+              "paragraphs": [
+                "A next-year opportunity has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Goal 1",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": [
+            {
+              "title": "Goal and intended impact",
+              "paragraphs": [
+                "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks."
+              ],
+              "bullets": [
+                "Status: in progress"
+              ],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "What I did",
+              "paragraphs": [
+                "A confirmed reflection on the work completed has not been added yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Evidence and outcomes",
+              "paragraphs": [
+                "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Progress",
+              "paragraphs": [
+                "Progress: 36%. Confidence: 50%; target date 2026-10-23."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Key learning",
+              "paragraphs": [
+                "A confirmed learning or challenge has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Next-year opportunity",
+              "paragraphs": [
+                "A next-year opportunity has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Goal 2",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": [
+            {
+              "title": "Goal and intended impact",
+              "paragraphs": [
+                "Simplify the design process clarity in Customer profile projects by implementing a repeatable, standardised product/feature design workflow that increases predictability and stakeholder confidence."
+              ],
+              "bullets": [
+                "Status: in progress"
+              ],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "What I did",
+              "paragraphs": [
+                "A confirmed reflection on the work completed has not been added yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Evidence and outcomes",
+              "paragraphs": [
+                "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Progress",
+              "paragraphs": [
+                "Progress: 11%. Confidence: 50%."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Key learning",
+              "paragraphs": [
+                "A confirmed learning or challenge has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Next-year opportunity",
+              "paragraphs": [
+                "A next-year opportunity has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Goal 4",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": [
+            {
+              "title": "Goal and intended impact",
+              "paragraphs": [
+                "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
+              ],
+              "bullets": [
+                "Status: not started"
+              ],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "What I did",
+              "paragraphs": [
+                "A confirmed reflection on the work completed has not been added yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Evidence and outcomes",
+              "paragraphs": [
+                "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Progress",
+              "paragraphs": [
+                "Progress: 0%. Confidence: 50%."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Key learning",
+              "paragraphs": [
+                "A confirmed learning or challenge has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            },
+            {
+              "title": "Next-year opportunity",
+              "paragraphs": [
+                "A next-year opportunity has not been recorded yet."
+              ],
+              "bullets": [],
+              "evidence": [],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "id": "manager-ready",
       "categoryId": null,
-      "goalId": null,
-      "sections": []
+      "goalId": null
     },
     "annual": {
-      "id": "annual",
       "kind": "annual",
-      "title": "No annual report published",
-      "subtitle": "Publish from the desktop application",
-      "generatedAt": "2026-08-27T00:00:00.000Z",
-      "evidenceDisclosure": "metadata_only",
-      "privacyNote": "No goal data has been published yet.",
+      "title": "2026 annual performance summary",
+      "subtitle": "Measured progress, confirmed evidence, commitments, and learning",
+      "year": {
+        "id": "year-2026",
+        "label": "2026",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31",
+        "status": "active",
+        "createdAt": "2026-01-05T09:00:00Z"
+      },
+      "generatedAt": "2026-08-28T13:11:07.135Z",
+      "evidenceDisclosure": "include_excerpts",
+      "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+      "sections": [
+        {
+          "title": "Annual overview",
+          "paragraphs": [
+            "Measured goal progress is 19%. Evidence coverage is reported separately and does not change the progress calculation."
+          ],
+          "bullets": [
+            "Evidence coverage: 1 of 5 active goals (20%)",
+            "Evidence captured: 1",
+            "Measured goals: 5 of 5"
+          ],
+          "evidence": [],
+          "children": []
+        },
+        {
+          "title": "XD Lens progress",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": [
+            {
+              "title": "Elevate",
+              "paragraphs": [
+                "Customer experience, execution excellence, and design-development alignment."
+              ],
+              "bullets": [
+                "Progress: 36%",
+                "Evidence coverage: 0 of 1 goals (0%)"
+              ],
+              "evidence": [],
+              "children": [
+                {
+                  "title": "Goal 1",
+                  "paragraphs": [
+                    "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks."
+                  ],
+                  "bullets": [
+                    "Status: in progress",
+                    "Progress: 36%",
+                    "Confirmed evidence items: 0",
+                    "Due date: 2026-10-23"
+                  ],
+                  "evidence": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Simplify",
+              "paragraphs": [
+                "Predictable and repeatable design workflows."
+              ],
+              "bullets": [
+                "Progress: 11%",
+                "Evidence coverage: 0 of 1 goals (0%)"
+              ],
+              "evidence": [],
+              "children": [
+                {
+                  "title": "Goal 2",
+                  "paragraphs": [
+                    "Simplify the design process clarity in Customer profile projects by implementing a repeatable, standardised product/feature design workflow that increases predictability and stakeholder confidence."
+                  ],
+                  "bullets": [
+                    "Status: in progress",
+                    "Progress: 11%",
+                    "Confirmed evidence items: 0"
+                  ],
+                  "evidence": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Care",
+              "paragraphs": [
+                "Structured user testing and actionable insight."
+              ],
+              "bullets": [
+                "Progress: 50%",
+                "Evidence coverage: 1 of 1 goals (100%)"
+              ],
+              "evidence": [],
+              "children": [
+                {
+                  "title": "Goal 3",
+                  "paragraphs": [
+                    "Generate actionable insights through structured user testing workflows and embed those insights directly into product decisions."
+                  ],
+                  "bullets": [
+                    "Status: in progress",
+                    "Progress: 50%",
+                    "Confirmed evidence items: 1"
+                  ],
+                  "evidence": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Unite",
+              "paragraphs": [
+                "Strategic communication, shared standards, and collaboration."
+              ],
+              "bullets": [
+                "Progress: 0%",
+                "Evidence coverage: 0 of 1 goals (0%)"
+              ],
+              "evidence": [],
+              "children": [
+                {
+                  "title": "Goal 4",
+                  "paragraphs": [
+                    "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
+                  ],
+                  "bullets": [
+                    "Status: not started",
+                    "Progress: 0%",
+                    "Confirmed evidence items: 0"
+                  ],
+                  "evidence": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Commitments",
+              "paragraphs": [
+                "The professional behaviours that make outcomes sustainable."
+              ],
+              "bullets": [
+                "Progress: 0%",
+                "Evidence coverage: 0 of 1 goals (0%)"
+              ],
+              "evidence": [],
+              "children": [
+                {
+                  "title": "Commitments",
+                  "paragraphs": [
+                    "No intended-impact description is recorded."
+                  ],
+                  "bullets": [
+                    "Status: in progress",
+                    "Progress: 0%",
+                    "Confirmed evidence items: 0"
+                  ],
+                  "evidence": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Evidence and outcomes",
+          "paragraphs": [
+            "This list contains confirmed outcome evidence first, followed by the most recent supporting evidence."
+          ],
+          "bullets": [],
+          "evidence": [
+            {
+              "id": "evidence-72a6290d-de09-4078-9362-572c66233ddd",
+              "title": "Notification Critique Session",
+              "metadata": "2026-06-11 · screenshot · progress",
+              "relationship": "progress",
+              "note": "Had Critique Session for notification centre phase 1 in the team.",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
+              "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
+            }
+          ],
+          "children": []
+        },
+        {
+          "title": "Commitment reflection",
+          "paragraphs": [],
+          "bullets": [],
+          "evidence": [],
+          "children": []
+        },
+        {
+          "title": "Learning and next-year opportunities",
+          "paragraphs": [
+            "No confirmed learning or next-year reflections are recorded yet."
+          ],
+          "bullets": [],
+          "evidence": [],
+          "children": []
+        }
+      ],
+      "id": "annual",
       "categoryId": null,
-      "goalId": null,
-      "sections": []
+      "goalId": null
     },
-    "categories": [],
-    "goals": [],
+    "categories": [
+      {
+        "kind": "category",
+        "title": "Elevate progress report",
+        "subtitle": "2026 XD Lens review",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Elevate",
+            "paragraphs": [
+              "Customer experience, execution excellence, and design-development alignment."
+            ],
+            "bullets": [
+              "Progress: 36%",
+              "Evidence coverage: 0 of 1 goals (0%)"
+            ],
+            "evidence": [],
+            "children": [
+              {
+                "title": "Goal 1",
+                "paragraphs": [
+                  "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks."
+                ],
+                "bullets": [
+                  "Status: in progress",
+                  "Progress: 36%",
+                  "Confirmed evidence items: 0",
+                  "Due date: 2026-10-23"
+                ],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "category:cat-2026-elevate",
+        "categoryId": "cat-2026-elevate",
+        "goalId": null
+      },
+      {
+        "kind": "category",
+        "title": "Simplify progress report",
+        "subtitle": "2026 XD Lens review",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Simplify",
+            "paragraphs": [
+              "Predictable and repeatable design workflows."
+            ],
+            "bullets": [
+              "Progress: 11%",
+              "Evidence coverage: 0 of 1 goals (0%)"
+            ],
+            "evidence": [],
+            "children": [
+              {
+                "title": "Goal 2",
+                "paragraphs": [
+                  "Simplify the design process clarity in Customer profile projects by implementing a repeatable, standardised product/feature design workflow that increases predictability and stakeholder confidence."
+                ],
+                "bullets": [
+                  "Status: in progress",
+                  "Progress: 11%",
+                  "Confirmed evidence items: 0"
+                ],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "category:cat-2026-simplify",
+        "categoryId": "cat-2026-simplify",
+        "goalId": null
+      },
+      {
+        "kind": "category",
+        "title": "Care progress report",
+        "subtitle": "2026 XD Lens review",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Care",
+            "paragraphs": [
+              "Structured user testing and actionable insight."
+            ],
+            "bullets": [
+              "Progress: 50%",
+              "Evidence coverage: 1 of 1 goals (100%)"
+            ],
+            "evidence": [],
+            "children": [
+              {
+                "title": "Goal 3",
+                "paragraphs": [
+                  "Generate actionable insights through structured user testing workflows and embed those insights directly into product decisions."
+                ],
+                "bullets": [
+                  "Status: in progress",
+                  "Progress: 50%",
+                  "Confirmed evidence items: 1"
+                ],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "category:cat-2026-care",
+        "categoryId": "cat-2026-care",
+        "goalId": null
+      },
+      {
+        "kind": "category",
+        "title": "Unite progress report",
+        "subtitle": "2026 XD Lens review",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Unite",
+            "paragraphs": [
+              "Strategic communication, shared standards, and collaboration."
+            ],
+            "bullets": [
+              "Progress: 0%",
+              "Evidence coverage: 0 of 1 goals (0%)"
+            ],
+            "evidence": [],
+            "children": [
+              {
+                "title": "Goal 4",
+                "paragraphs": [
+                  "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
+                ],
+                "bullets": [
+                  "Status: not started",
+                  "Progress: 0%",
+                  "Confirmed evidence items: 0"
+                ],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "category:cat-2026-unite",
+        "categoryId": "cat-2026-unite",
+        "goalId": null
+      },
+      {
+        "kind": "category",
+        "title": "Commitments progress report",
+        "subtitle": "2026 XD Lens review",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Commitments",
+            "paragraphs": [
+              "The professional behaviours that make outcomes sustainable."
+            ],
+            "bullets": [
+              "Progress: 0%",
+              "Evidence coverage: 0 of 1 goals (0%)"
+            ],
+            "evidence": [],
+            "children": [
+              {
+                "title": "Commitments",
+                "paragraphs": [
+                  "No intended-impact description is recorded."
+                ],
+                "bullets": [
+                  "Status: in progress",
+                  "Progress: 0%",
+                  "Confirmed evidence items: 0"
+                ],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "category:cat-2026-commitments",
+        "categoryId": "cat-2026-commitments",
+        "goalId": null
+      }
+    ],
+    "goals": [
+      {
+        "kind": "goal",
+        "title": "Goal 3",
+        "subtitle": "2026 goal detail report",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Goal 3",
+            "paragraphs": [
+              "Generate actionable insights through structured user testing workflows and embed those insights directly into product decisions."
+            ],
+            "bullets": [
+              "Status: in progress",
+              "Progress: 50%",
+              "Confirmed evidence items: 1"
+            ],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Linked evidence",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [
+              {
+                "id": "evidence-72a6290d-de09-4078-9362-572c66233ddd",
+                "title": "Notification Critique Session",
+                "metadata": "2026-06-11 · screenshot · progress",
+                "relationship": "progress",
+                "note": "Had Critique Session for notification centre phase 1 in the team.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
+                "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
+              }
+            ],
+            "children": []
+          },
+          {
+            "title": "Progress",
+            "paragraphs": [
+              "Progress: 50%. Confidence: 50%."
+            ],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Reflection",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": [
+              {
+                "title": "What changed",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Impact created",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Challenges",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Next steps",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "goal:goal-70072a60-5ece-4ce8-b6f5-5ea6b481e7de",
+        "categoryId": null,
+        "goalId": "goal-70072a60-5ece-4ce8-b6f5-5ea6b481e7de"
+      },
+      {
+        "kind": "goal",
+        "title": "Commitments",
+        "subtitle": "2026 goal detail report",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Commitments",
+            "paragraphs": [
+              "No intended-impact description is recorded."
+            ],
+            "bullets": [
+              "Status: in progress",
+              "Progress: 0%",
+              "Confirmed evidence items: 0"
+            ],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Linked evidence",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Progress",
+            "paragraphs": [
+              "Progress: 0%. Confidence: 50%."
+            ],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Reflection",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": [
+              {
+                "title": "What changed",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Impact created",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Challenges",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Next steps",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "goal:goal-07cea9e2-496c-43d1-8061-a2126250bc07",
+        "categoryId": null,
+        "goalId": "goal-07cea9e2-496c-43d1-8061-a2126250bc07"
+      },
+      {
+        "kind": "goal",
+        "title": "Goal 1",
+        "subtitle": "2026 goal detail report",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Goal 1",
+            "paragraphs": [
+              "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks."
+            ],
+            "bullets": [
+              "Status: in progress",
+              "Progress: 36%",
+              "Confirmed evidence items: 0",
+              "Due date: 2026-10-23"
+            ],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Linked evidence",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Progress",
+            "paragraphs": [
+              "Progress: 36%. Confidence: 50%; target date 2026-10-23."
+            ],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Reflection",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": [
+              {
+                "title": "What changed",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Impact created",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Challenges",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Next steps",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "goal:goal-e0c6174d-307c-455a-8341-6d70f2be36e3",
+        "categoryId": null,
+        "goalId": "goal-e0c6174d-307c-455a-8341-6d70f2be36e3"
+      },
+      {
+        "kind": "goal",
+        "title": "Goal 2",
+        "subtitle": "2026 goal detail report",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Goal 2",
+            "paragraphs": [
+              "Simplify the design process clarity in Customer profile projects by implementing a repeatable, standardised product/feature design workflow that increases predictability and stakeholder confidence."
+            ],
+            "bullets": [
+              "Status: in progress",
+              "Progress: 11%",
+              "Confirmed evidence items: 0"
+            ],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Linked evidence",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Progress",
+            "paragraphs": [
+              "Progress: 11%. Confidence: 50%."
+            ],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Reflection",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": [
+              {
+                "title": "What changed",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Impact created",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Challenges",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Next steps",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "goal:goal-0250df96-cf28-4652-93b3-119c56e952ec",
+        "categoryId": null,
+        "goalId": "goal-0250df96-cf28-4652-93b3-119c56e952ec"
+      },
+      {
+        "kind": "goal",
+        "title": "Goal 4",
+        "subtitle": "2026 goal detail report",
+        "year": {
+          "id": "year-2026",
+          "label": "2026",
+          "startDate": "2026-01-01",
+          "endDate": "2026-12-31",
+          "status": "active",
+          "createdAt": "2026-01-05T09:00:00Z"
+        },
+        "generatedAt": "2026-08-28T13:11:07.135Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+        "sections": [
+          {
+            "title": "Goal 4",
+            "paragraphs": [
+              "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
+            ],
+            "bullets": [
+              "Status: not started",
+              "Progress: 0%",
+              "Confirmed evidence items: 0"
+            ],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Linked evidence",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Progress",
+            "paragraphs": [
+              "Progress: 0%. Confidence: 50%."
+            ],
+            "bullets": [],
+            "evidence": [],
+            "children": []
+          },
+          {
+            "title": "Reflection",
+            "paragraphs": [],
+            "bullets": [],
+            "evidence": [],
+            "children": [
+              {
+                "title": "What changed",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Impact created",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Challenges",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              },
+              {
+                "title": "Next steps",
+                "paragraphs": [
+                  "Not recorded."
+                ],
+                "bullets": [],
+                "evidence": [],
+                "children": []
+              }
+            ]
+          }
+        ],
+        "id": "goal:goal-f5c9b117-2db9-4c5d-92c3-eefbbeaae7a1",
+        "categoryId": null,
+        "goalId": "goal-f5c9b117-2db9-4c5d-92c3-eefbbeaae7a1"
+      }
+    ],
     "commitment": {
-      "id": "commitment",
       "kind": "commitment",
-      "title": "No commitment reflection published",
-      "subtitle": "Publish from the desktop application",
-      "generatedAt": "2026-08-27T00:00:00.000Z",
-      "evidenceDisclosure": "metadata_only",
-      "privacyNote": "No goal data has been published yet.",
+      "title": "2026 commitment reflection",
+      "subtitle": "Execution, simplicity, learning, and collaboration",
+      "year": {
+        "id": "year-2026",
+        "label": "2026",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31",
+        "status": "active",
+        "createdAt": "2026-01-05T09:00:00Z"
+      },
+      "generatedAt": "2026-08-28T13:11:07.135Z",
+      "evidenceDisclosure": "include_excerpts",
+      "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
+      "sections": [
+        {
+          "title": "Commitments",
+          "paragraphs": [
+            "No commitments are recorded for this year."
+          ],
+          "bullets": [],
+          "evidence": [],
+          "children": []
+        }
+      ],
+      "id": "commitment",
       "categoryId": null,
-      "goalId": null,
-      "sections": []
+      "goalId": null
     }
   },
-  "assets": []
+  "assets": [
+    {
+      "id": "af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842",
+      "path": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png",
+      "mimeType": "image/png",
+      "byteLength": 177173
+    }
+  ]
 }
