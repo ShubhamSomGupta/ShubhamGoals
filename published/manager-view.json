@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "publicationId": "publication-17a8de85e15202a9",
-  "publishedAt": "2026-08-28T14:17:10.579Z",
-  "contentFingerprint": "17a8de85e15202a97b9e0c2a3fbe3afeaf1f5644aaf3cc19260ea420b91af08d",
+  "publicationId": "publication-6a0b85f88dc6d570",
+  "publishedAt": "2026-09-02T07:31:43.903Z",
+  "contentFingerprint": "6a0b85f88dc6d5705de8a6017532a54777ea8dbf53fc8af9559b00903f5c25ea",
   "access": {
     "mode": "pin",
     "verifier": "f03a03bf8fae2f51e937642d5f0a60b24065f442f037cc7690003ce89ec8e8f3"
@@ -55,7 +55,7 @@
       "title": "Goal 3",
       "description": "Generate actionable insights through structured user testing workflows and embed those insights directly into product decisions.",
       "status": "in_progress",
-      "progress": 50,
+      "progress": 75,
       "confidence": 50,
       "dueDate": null,
       "sortOrder": 0,
@@ -111,13 +111,13 @@
             {
               "id": "goal-action-6f0a8774-678d-465f-8e29-5b8cdb6f83f3",
               "title": "User Testing Insight Repository : Generate key pain points and opportunity areas",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 3
             },
             {
               "id": "goal-action-7de65b82-d95a-4548-b0cb-b8ac3fbe47a3",
               "title": "User Testing Insight Repository : Cluster user comments into themes",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 4
             }
           ]
@@ -212,7 +212,7 @@
       "title": "Goal 1",
       "description": "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks.",
       "status": "in_progress",
-      "progress": 36,
+      "progress": 43,
       "confidence": 50,
       "dueDate": "2026-10-23",
       "sortOrder": 0,
@@ -227,7 +227,7 @@
         "Execution Excellence",
         "Simplification"
       ],
-      "confirmedEvidenceCount": 0,
+      "confirmedEvidenceCount": 1,
       "sections": [
         {
           "id": "goal-section-fd8df942-882c-4c2f-99c5-c8a36c38d883",
@@ -237,7 +237,7 @@
             {
               "id": "goal-action-e1ac53ff-5a25-4228-a716-92c6f86270bf",
               "title": "Create empty states and error messaging faster",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 0
             },
             {
@@ -361,7 +361,7 @@
       "philipsLensNames": [
         "Execution Excellence"
       ],
-      "confirmedEvidenceCount": 0,
+      "confirmedEvidenceCount": 1,
       "sections": [
         {
           "id": "goal-section-9490de04-605a-4b4f-8764-e4ef1668ac97",
@@ -430,8 +430,8 @@
       "id": "goal-f5c9b117-2db9-4c5d-92c3-eefbbeaae7a1",
       "title": "Goal 4",
       "description": "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams.",
-      "status": "not_started",
-      "progress": 0,
+      "status": "in_progress",
+      "progress": 20,
       "confidence": 50,
       "dueDate": null,
       "sortOrder": 0,
@@ -444,7 +444,7 @@
       "philipsLensNames": [
         "People Development / Environmental"
       ],
-      "confirmedEvidenceCount": 0,
+      "confirmedEvidenceCount": 1,
       "sections": [
         {
           "id": "goal-section-579c2637-e0b7-49ea-9a70-acfabc357a54",
@@ -472,13 +472,13 @@
             {
               "id": "goal-action-d16dd6cd-6b49-47c7-adda-bfaf7e9e72d6",
               "title": "Contribute to 1–2 case studies.",
-              "status": "not_started",
+              "status": "in_progress",
               "sortOrder": 3
             },
             {
               "id": "goal-action-6375246e-a7fc-42cc-a48b-21fdffb19cc6",
               "title": "Conduct or participate in design share-outs or storytelling sessions (e.g., guilds, showcases, or cross-team reviews) to refine storytelling clarity and impact.",
-              "status": "not_started",
+              "status": "completed",
               "sortOrder": 4
             }
           ]
@@ -499,9 +499,9 @@
         "status": "active",
         "createdAt": "2026-01-05T09:00:00Z"
       },
-      "generatedAt": "2026-08-28T14:17:10.579Z",
-      "evidenceDisclosure": "metadata_only",
-      "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+      "generatedAt": "2026-09-02T07:31:43.903Z",
+      "evidenceDisclosure": "include_excerpts",
+      "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
       "sections": [
         {
           "title": "Goal 3",
@@ -532,7 +532,7 @@
                   "title": "Notification Critique Session",
                   "metadata": "2026-06-11 · screenshot · progress",
                   "relationship": "progress",
-                  "note": null,
+                  "note": "Had Critique Session for notification centre phase 1 in the team.",
                   "sourceUrl": null,
                   "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
                   "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
@@ -552,7 +552,7 @@
                   "title": "Notification Critique Session",
                   "metadata": "2026-06-11 · screenshot · progress",
                   "relationship": "progress",
-                  "note": null,
+                  "note": "Had Critique Session for notification centre phase 1 in the team.",
                   "sourceUrl": null,
                   "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
                   "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
@@ -563,7 +563,7 @@
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 50%. Confidence: 50%."
+                "Progress: 75%. Confidence: 50%."
               ],
               "bullets": [],
               "evidence": [],
@@ -682,16 +682,27 @@
             {
               "title": "Evidence and outcomes",
               "paragraphs": [
-                "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
+                "The outcome evidence below is linked to this goal."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
+                  "title": "Edge cases for Calendar",
+                  "metadata": "2026-08-31 · document · outcome",
+                  "relationship": "outcome",
+                  "note": "Using AI, defined the edge cases and error states and notifications for calendar component, and documented for dev handover. Product Manager: *To be confirmed* Lead Designer: Rui Xin Zhang, Shubham Gupta Business Requirement: Service Manager Calendar (Lift & Shift with UX Improvements — MVP 2026) ## Overview The Service Manager Calendar gives OneSpace users one place to review service events and manage permitted appointment responses across their supported locations. The MVP consists of a ful…",
+                  "sourceUrl": null,
+                  "fileName": "EdgeCases_Calendar.md",
+                  "assetPath": null
+                }
+              ],
               "children": []
             },
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 36%. Confidence: 50%; target date 2026-10-23."
+                "Progress: 43%. Confidence: 50%; target date 2026-10-23."
               ],
               "bullets": [],
               "evidence": [],
@@ -749,7 +760,18 @@
                 "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
+                  "title": "Edge cases for Calendar",
+                  "metadata": "2026-08-31 · document · risk",
+                  "relationship": "risk",
+                  "note": "Using AI, defined the edge cases and error states and notifications for calendar component, and documented for dev handover. Product Manager: *To be confirmed* Lead Designer: Rui Xin Zhang, Shubham Gupta Business Requirement: Service Manager Calendar (Lift & Shift with UX Improvements — MVP 2026) ## Overview The Service Manager Calendar gives OneSpace users one place to review service events and manage permitted appointment responses across their supported locations. The MVP consists of a ful…",
+                  "sourceUrl": null,
+                  "fileName": "EdgeCases_Calendar.md",
+                  "assetPath": null
+                }
+              ],
               "children": []
             },
             {
@@ -793,7 +815,7 @@
                 "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
               ],
               "bullets": [
-                "Status: not started"
+                "Status: in progress"
               ],
               "evidence": [],
               "children": []
@@ -804,7 +826,18 @@
                 "A confirmed reflection on the work completed has not been added yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
+                  "title": "Digital Design Guild - AI Upskill - Shareout",
+                  "metadata": "2026-09-02 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Aided in studio upskilling by shareout with whole studio how to host live site on GitHub.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-02 at 11.24.41 AM.png",
+                  "assetPath": "published/assets/e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185.png"
+                }
+              ],
               "children": []
             },
             {
@@ -813,13 +846,24 @@
                 "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
+                  "title": "Digital Design Guild - AI Upskill - Shareout",
+                  "metadata": "2026-09-02 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Aided in studio upskilling by shareout with whole studio how to host live site on GitHub.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-02 at 11.24.41 AM.png",
+                  "assetPath": "published/assets/e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185.png"
+                }
+              ],
               "children": []
             },
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 0%. Confidence: 50%."
+                "Progress: 20%. Confidence: 50%."
               ],
               "bullets": [],
               "evidence": [],
@@ -862,18 +906,18 @@
         "status": "active",
         "createdAt": "2026-01-05T09:00:00Z"
       },
-      "generatedAt": "2026-08-28T14:17:10.579Z",
-      "evidenceDisclosure": "metadata_only",
-      "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+      "generatedAt": "2026-09-02T07:31:43.903Z",
+      "evidenceDisclosure": "include_excerpts",
+      "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
       "sections": [
         {
           "title": "Annual overview",
           "paragraphs": [
-            "Measured goal progress is 19%. Evidence coverage is reported separately and does not change the progress calculation."
+            "Measured goal progress is 30%. Evidence coverage is reported separately and does not change the progress calculation."
           ],
           "bullets": [
-            "Evidence coverage: 1 of 5 active goals (20%)",
-            "Evidence captured: 1",
+            "Evidence coverage: 4 of 5 active goals (80%)",
+            "Evidence captured: 3",
             "Measured goals: 5 of 5"
           ],
           "evidence": [],
@@ -891,8 +935,8 @@
                 "Customer experience, execution excellence, and design-development alignment."
               ],
               "bullets": [
-                "Progress: 36%",
-                "Evidence coverage: 0 of 1 goals (0%)"
+                "Progress: 43%",
+                "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
               "children": [
@@ -903,8 +947,8 @@
                   ],
                   "bullets": [
                     "Status: in progress",
-                    "Progress: 36%",
-                    "Confirmed evidence items: 0",
+                    "Progress: 43%",
+                    "Confirmed evidence items: 1",
                     "Due date: 2026-10-23"
                   ],
                   "evidence": [],
@@ -919,7 +963,7 @@
               ],
               "bullets": [
                 "Progress: 11%",
-                "Evidence coverage: 0 of 1 goals (0%)"
+                "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
               "children": [
@@ -931,7 +975,7 @@
                   "bullets": [
                     "Status: in progress",
                     "Progress: 11%",
-                    "Confirmed evidence items: 0"
+                    "Confirmed evidence items: 1"
                   ],
                   "evidence": [],
                   "children": []
@@ -944,7 +988,7 @@
                 "Structured user testing and actionable insight."
               ],
               "bullets": [
-                "Progress: 50%",
+                "Progress: 75%",
                 "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
@@ -956,7 +1000,7 @@
                   ],
                   "bullets": [
                     "Status: in progress",
-                    "Progress: 50%",
+                    "Progress: 75%",
                     "Confirmed evidence items: 1"
                   ],
                   "evidence": [],
@@ -970,8 +1014,8 @@
                 "Strategic communication, shared standards, and collaboration."
               ],
               "bullets": [
-                "Progress: 0%",
-                "Evidence coverage: 0 of 1 goals (0%)"
+                "Progress: 20%",
+                "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
               "children": [
@@ -981,9 +1025,9 @@
                     "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
                   ],
                   "bullets": [
-                    "Status: not started",
-                    "Progress: 0%",
-                    "Confirmed evidence items: 0"
+                    "Status: in progress",
+                    "Progress: 20%",
+                    "Confirmed evidence items: 1"
                   ],
                   "evidence": [],
                   "children": []
@@ -1026,11 +1070,31 @@
           "bullets": [],
           "evidence": [
             {
+              "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
+              "title": "Edge cases for Calendar",
+              "metadata": "2026-08-31 · document · outcome",
+              "relationship": "outcome",
+              "note": "Using AI, defined the edge cases and error states and notifications for calendar component, and documented for dev handover. Product Manager: *To be confirmed* Lead Designer: Rui Xin Zhang, Shubham Gupta Business Requirement: Service Manager Calendar (Lift & Shift with UX Improvements — MVP 2026) ## Overview The Service Manager Calendar gives OneSpace users one place to review service events and manage permitted appointment responses across their supported locations. The MVP consists of a ful…",
+              "sourceUrl": null,
+              "fileName": "EdgeCases_Calendar.md",
+              "assetPath": null
+            },
+            {
+              "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
+              "title": "Digital Design Guild - AI Upskill - Shareout",
+              "metadata": "2026-09-02 · screenshot · supports",
+              "relationship": "supports",
+              "note": "Aided in studio upskilling by shareout with whole studio how to host live site on GitHub.",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-02 at 11.24.41 AM.png",
+              "assetPath": "published/assets/e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185.png"
+            },
+            {
               "id": "evidence-72a6290d-de09-4078-9362-572c66233ddd",
               "title": "Notification Critique Session",
               "metadata": "2026-06-11 · screenshot · progress",
               "relationship": "progress",
-              "note": null,
+              "note": "Had Critique Session for notification centre phase 1 in the team.",
               "sourceUrl": null,
               "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
               "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
@@ -1072,9 +1136,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Elevate",
@@ -1082,8 +1146,8 @@
               "Customer experience, execution excellence, and design-development alignment."
             ],
             "bullets": [
-              "Progress: 36%",
-              "Evidence coverage: 0 of 1 goals (0%)"
+              "Progress: 43%",
+              "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
             "children": [
@@ -1094,8 +1158,8 @@
                 ],
                 "bullets": [
                   "Status: in progress",
-                  "Progress: 36%",
-                  "Confirmed evidence items: 0",
+                  "Progress: 43%",
+                  "Confirmed evidence items: 1",
                   "Due date: 2026-10-23"
                 ],
                 "evidence": [],
@@ -1120,9 +1184,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Simplify",
@@ -1131,7 +1195,7 @@
             ],
             "bullets": [
               "Progress: 11%",
-              "Evidence coverage: 0 of 1 goals (0%)"
+              "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
             "children": [
@@ -1143,7 +1207,7 @@
                 "bullets": [
                   "Status: in progress",
                   "Progress: 11%",
-                  "Confirmed evidence items: 0"
+                  "Confirmed evidence items: 1"
                 ],
                 "evidence": [],
                 "children": []
@@ -1167,9 +1231,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Care",
@@ -1177,7 +1241,7 @@
               "Structured user testing and actionable insight."
             ],
             "bullets": [
-              "Progress: 50%",
+              "Progress: 75%",
               "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
@@ -1189,7 +1253,7 @@
                 ],
                 "bullets": [
                   "Status: in progress",
-                  "Progress: 50%",
+                  "Progress: 75%",
                   "Confirmed evidence items: 1"
                 ],
                 "evidence": [],
@@ -1214,9 +1278,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Unite",
@@ -1224,8 +1288,8 @@
               "Strategic communication, shared standards, and collaboration."
             ],
             "bullets": [
-              "Progress: 0%",
-              "Evidence coverage: 0 of 1 goals (0%)"
+              "Progress: 20%",
+              "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
             "children": [
@@ -1235,9 +1299,9 @@
                   "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
                 ],
                 "bullets": [
-                  "Status: not started",
-                  "Progress: 0%",
-                  "Confirmed evidence items: 0"
+                  "Status: in progress",
+                  "Progress: 20%",
+                  "Confirmed evidence items: 1"
                 ],
                 "evidence": [],
                 "children": []
@@ -1261,9 +1325,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Commitments",
@@ -1310,9 +1374,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Goal 3",
@@ -1321,7 +1385,7 @@
             ],
             "bullets": [
               "Status: in progress",
-              "Progress: 50%",
+              "Progress: 75%",
               "Confirmed evidence items: 1"
             ],
             "evidence": [],
@@ -1337,7 +1401,7 @@
                 "title": "Notification Critique Session",
                 "metadata": "2026-06-11 · screenshot · progress",
                 "relationship": "progress",
-                "note": null,
+                "note": "Had Critique Session for notification centre phase 1 in the team.",
                 "sourceUrl": null,
                 "fileName": "Screenshot 2026-08-24 at 1.24.27 PM.png",
                 "assetPath": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png"
@@ -1348,7 +1412,7 @@
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 50%. Confidence: 50%."
+              "Progress: 75%. Confidence: 50%."
             ],
             "bullets": [],
             "evidence": [],
@@ -1415,9 +1479,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Commitments",
@@ -1509,9 +1573,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Goal 1",
@@ -1520,8 +1584,8 @@
             ],
             "bullets": [
               "Status: in progress",
-              "Progress: 36%",
-              "Confirmed evidence items: 0",
+              "Progress: 43%",
+              "Confirmed evidence items: 1",
               "Due date: 2026-10-23"
             ],
             "evidence": [],
@@ -1531,13 +1595,24 @@
             "title": "Linked evidence",
             "paragraphs": [],
             "bullets": [],
-            "evidence": [],
+            "evidence": [
+              {
+                "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
+                "title": "Edge cases for Calendar",
+                "metadata": "2026-08-31 · document · outcome",
+                "relationship": "outcome",
+                "note": "Using AI, defined the edge cases and error states and notifications for calendar component, and documented for dev handover. Product Manager: *To be confirmed* Lead Designer: Rui Xin Zhang, Shubham Gupta Business Requirement: Service Manager Calendar (Lift & Shift with UX Improvements — MVP 2026) ## Overview The Service Manager Calendar gives OneSpace users one place to review service events and manage permitted appointment responses across their supported locations. The MVP consists of a ful…",
+                "sourceUrl": null,
+                "fileName": "EdgeCases_Calendar.md",
+                "assetPath": null
+              }
+            ],
             "children": []
           },
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 36%. Confidence: 50%; target date 2026-10-23."
+              "Progress: 43%. Confidence: 50%; target date 2026-10-23."
             ],
             "bullets": [],
             "evidence": [],
@@ -1604,9 +1679,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Goal 2",
@@ -1616,7 +1691,7 @@
             "bullets": [
               "Status: in progress",
               "Progress: 11%",
-              "Confirmed evidence items: 0"
+              "Confirmed evidence items: 1"
             ],
             "evidence": [],
             "children": []
@@ -1625,7 +1700,18 @@
             "title": "Linked evidence",
             "paragraphs": [],
             "bullets": [],
-            "evidence": [],
+            "evidence": [
+              {
+                "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
+                "title": "Edge cases for Calendar",
+                "metadata": "2026-08-31 · document · risk",
+                "relationship": "risk",
+                "note": "Using AI, defined the edge cases and error states and notifications for calendar component, and documented for dev handover. Product Manager: *To be confirmed* Lead Designer: Rui Xin Zhang, Shubham Gupta Business Requirement: Service Manager Calendar (Lift & Shift with UX Improvements — MVP 2026) ## Overview The Service Manager Calendar gives OneSpace users one place to review service events and manage permitted appointment responses across their supported locations. The MVP consists of a ful…",
+                "sourceUrl": null,
+                "fileName": "EdgeCases_Calendar.md",
+                "assetPath": null
+              }
+            ],
             "children": []
           },
           {
@@ -1698,9 +1784,9 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-08-28T14:17:10.579Z",
-        "evidenceDisclosure": "metadata_only",
-        "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "evidenceDisclosure": "include_excerpts",
+        "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
           {
             "title": "Goal 4",
@@ -1708,9 +1794,9 @@
               "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams."
             ],
             "bullets": [
-              "Status: not started",
-              "Progress: 0%",
-              "Confirmed evidence items: 0"
+              "Status: in progress",
+              "Progress: 20%",
+              "Confirmed evidence items: 1"
             ],
             "evidence": [],
             "children": []
@@ -1719,13 +1805,24 @@
             "title": "Linked evidence",
             "paragraphs": [],
             "bullets": [],
-            "evidence": [],
+            "evidence": [
+              {
+                "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
+                "title": "Digital Design Guild - AI Upskill - Shareout",
+                "metadata": "2026-09-02 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Aided in studio upskilling by shareout with whole studio how to host live site on GitHub.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-02 at 11.24.41 AM.png",
+                "assetPath": "published/assets/e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185.png"
+              }
+            ],
             "children": []
           },
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 0%. Confidence: 50%."
+              "Progress: 20%. Confidence: 50%."
             ],
             "bullets": [],
             "evidence": [],
@@ -1793,9 +1890,9 @@
         "status": "active",
         "createdAt": "2026-01-05T09:00:00Z"
       },
-      "generatedAt": "2026-08-28T14:17:10.579Z",
-      "evidenceDisclosure": "metadata_only",
-      "privacyNote": "Evidence images are inserted when available, source links remain clickable, and document attachments are listed by name. Note text is omitted unless excerpts are enabled. Absolute local paths are never included.",
+      "generatedAt": "2026-09-02T07:31:43.903Z",
+      "evidenceDisclosure": "include_excerpts",
+      "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
       "sections": [
         {
           "title": "Commitments",
@@ -1818,6 +1915,12 @@
       "path": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png",
       "mimeType": "image/png",
       "byteLength": 177173
+    },
+    {
+      "id": "e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185",
+      "path": "published/assets/e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185.png",
+      "mimeType": "image/png",
+      "byteLength": 944617
     }
   ]
 }
