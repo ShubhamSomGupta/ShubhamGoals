@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "publicationId": "publication-6a0b85f88dc6d570",
-  "publishedAt": "2026-09-02T07:31:43.903Z",
-  "contentFingerprint": "6a0b85f88dc6d5705de8a6017532a54777ea8dbf53fc8af9559b00903f5c25ea",
+  "publicationId": "publication-841c36ca924489bb",
+  "publishedAt": "2026-09-03T18:33:08.882Z",
+  "contentFingerprint": "841c36ca924489bb8f802c65829170535ac94144c5aa0cc27359267570282731",
   "access": {
     "mode": "pin",
     "verifier": "f03a03bf8fae2f51e937642d5f0a60b24065f442f037cc7690003ce89ec8e8f3"
@@ -147,8 +147,8 @@
       "id": "goal-07cea9e2-496c-43d1-8061-a2126250bc07",
       "title": "Commitments",
       "description": "",
-      "status": "in_progress",
-      "progress": 0,
+      "status": "achieved",
+      "progress": 100,
       "confidence": 50,
       "dueDate": null,
       "sortOrder": 0,
@@ -164,7 +164,7 @@
         "People Development / Environmental",
         "Simplification"
       ],
-      "confirmedEvidenceCount": 0,
+      "confirmedEvidenceCount": 6,
       "sections": [
         {
           "id": "goal-section-77e0a86e-35dc-4992-8e89-08c1a3c93919",
@@ -174,7 +174,7 @@
             {
               "id": "goal-action-8828a1f2-ce85-4e5a-b981-b2b62c1092b3",
               "title": "“I commit to delivering high-quality, user-centered design solutions that elevate the UX experience in OneSpace, ensuring alignment with business impact, usability best practices, and measurable design improvements. Through structured design workflows, continuous validation, and data-driven insights, I will drive meaningful enhancements that improve user satisfaction and efficiency.”",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 0
             }
           ]
@@ -187,7 +187,7 @@
             {
               "id": "goal-action-66271d8f-7ac4-40be-bb21-8753671a98f8",
               "title": "“I commit to fostering design consistency and simplification by strengthening UX alignment across teams. By driving Filament adoption, refining design patterns, and contributing to a unified component library, I will ensure a seamless, intuitive, and scalable design system that enhances user experience across applications.”",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 0
             }
           ]
@@ -200,7 +200,7 @@
             {
               "id": "goal-action-aff3518d-0988-4413-8dbf-3e6817af8d03",
               "title": "“I commit to actively engaging with the design community and contributing to meaningful cross-functional programs. By leading initiatives like the Digital Design Guild, organizing knowledge-sharing sessions, and collaborating with global and social impact teams, I will expand my strategic thinking, elevate design impact, and foster a culture of continuous learning and innovation.”",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 0
             }
           ]
@@ -212,7 +212,7 @@
       "title": "Goal 1",
       "description": "Elevate OneSpace Customer Experience quality and execution excellence by measuring UX standards by improving delivery speed, reducing UX debt, and strengthening design–development alignment through AI-enabled workflows, requirement documentation and structured quality checks.",
       "status": "in_progress",
-      "progress": 43,
+      "progress": 57,
       "confidence": 50,
       "dueDate": "2026-10-23",
       "sortOrder": 0,
@@ -227,7 +227,7 @@
         "Execution Excellence",
         "Simplification"
       ],
-      "confirmedEvidenceCount": 1,
+      "confirmedEvidenceCount": 3,
       "sections": [
         {
           "id": "goal-section-fd8df942-882c-4c2f-99c5-c8a36c38d883",
@@ -255,7 +255,7 @@
             {
               "id": "goal-action-c7aef6ef-c565-4fa2-9916-08f4ccbadb7f",
               "title": "Converting workshop outputs into structured requirements",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 3
             },
             {
@@ -267,7 +267,7 @@
             {
               "id": "goal-action-ec096d30-fa91-40e0-9494-5697b41dbf4c",
               "title": "Generate edge-case flows",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 5
             }
           ]
@@ -348,7 +348,7 @@
       "title": "Goal 2",
       "description": "Simplify the design process clarity in Customer profile projects by implementing a repeatable, standardised product/feature design workflow that increases predictability and stakeholder confidence.",
       "status": "in_progress",
-      "progress": 11,
+      "progress": 44,
       "confidence": 50,
       "dueDate": null,
       "sortOrder": 0,
@@ -361,7 +361,7 @@
       "philipsLensNames": [
         "Execution Excellence"
       ],
-      "confirmedEvidenceCount": 1,
+      "confirmedEvidenceCount": 7,
       "sections": [
         {
           "id": "goal-section-9490de04-605a-4b4f-8764-e4ef1668ac97",
@@ -371,13 +371,13 @@
             {
               "id": "goal-action-b0d74165-8a80-4234-a311-d721a42f79fc",
               "title": "Apply standardised workflow: Requirement Alignment doc",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 0
             },
             {
               "id": "goal-action-39289a58-00e7-409b-9918-72e5fd6ddc75",
               "title": "Apply standardised workflow: UX principle checklist and DoD checklist for Dev Handoff",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 1
             },
             {
@@ -407,7 +407,7 @@
             {
               "id": "goal-action-9c23fa6b-ce2d-4c7f-b245-73cfe5357c2b",
               "title": "≥80% work tracked in backlog.",
-              "status": "in_progress",
+              "status": "completed",
               "sortOrder": 6
             },
             {
@@ -431,7 +431,7 @@
       "title": "Goal 4",
       "description": "Strengthen the influence of design within the Service Experience community by improving strategic communication and storytelling that clearly connects design decisions to business value, service workflows, and customer outcomes. Through design studio activities, knowledge sharing, and collaborative sessions, promote shared UX standards and encourage broader adoption of design thinking across teams.",
       "status": "in_progress",
-      "progress": 20,
+      "progress": 60,
       "confidence": 50,
       "dueDate": null,
       "sortOrder": 0,
@@ -444,7 +444,7 @@
       "philipsLensNames": [
         "People Development / Environmental"
       ],
-      "confirmedEvidenceCount": 1,
+      "confirmedEvidenceCount": 9,
       "sections": [
         {
           "id": "goal-section-579c2637-e0b7-49ea-9a70-acfabc357a54",
@@ -454,7 +454,7 @@
             {
               "id": "goal-action-d2fdebc1-50ae-498f-ba5a-bd0a2a329743",
               "title": "Advocate and secure alignment for at least 1 UX improvement despite initial stakeholder resistance.",
-              "status": "not_started",
+              "status": "completed",
               "sortOrder": 0
             },
             {
@@ -466,7 +466,7 @@
             {
               "id": "goal-action-a028eac3-9ec1-4123-814f-00126ecdb860",
               "title": "Contribute at least 1 UX principle or guideline to Service toolkit.",
-              "status": "not_started",
+              "status": "completed",
               "sortOrder": 2
             },
             {
@@ -499,7 +499,7 @@
         "status": "active",
         "createdAt": "2026-01-05T09:00:00Z"
       },
-      "generatedAt": "2026-09-02T07:31:43.903Z",
+      "generatedAt": "2026-09-03T18:33:08.882Z",
       "evidenceDisclosure": "include_excerpts",
       "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
       "sections": [
@@ -601,7 +601,7 @@
                 "No intended-impact description is recorded."
               ],
               "bullets": [
-                "Status: in progress"
+                "Status: achieved"
               ],
               "evidence": [],
               "children": []
@@ -612,7 +612,68 @@
                 "A confirmed reflection on the work completed has not been added yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+                  "title": "Wholistic view of OneSpace with stakeholders",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+                  "sourceUrl": null,
+                  "fileName": "OneSpace UX - Frame 136.jpg",
+                  "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+                },
+                {
+                  "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Cintributed to SImplify",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+                  "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+                },
+                {
+                  "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Unite principles",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+                  "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+                },
+                {
+                  "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Elevate",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+                  "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+                },
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                }
+              ],
               "children": []
             },
             {
@@ -621,13 +682,74 @@
                 "No confirmed impact reflection or outcome-labelled evidence is recorded yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+                  "title": "Wholistic view of OneSpace with stakeholders",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+                  "sourceUrl": null,
+                  "fileName": "OneSpace UX - Frame 136.jpg",
+                  "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+                },
+                {
+                  "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Cintributed to SImplify",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+                  "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+                },
+                {
+                  "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Unite principles",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+                  "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+                },
+                {
+                  "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Elevate",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+                  "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+                },
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                }
+              ],
               "children": []
             },
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 0%. Confidence: 50%."
+                "Progress: 100%. Confidence: 50%."
               ],
               "bullets": [],
               "evidence": [],
@@ -676,7 +798,28 @@
                 "A confirmed reflection on the work completed has not been added yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                }
+              ],
               "children": []
             },
             {
@@ -686,6 +829,26 @@
               ],
               "bullets": [],
               "evidence": [
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                },
                 {
                   "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
                   "title": "Edge cases for Calendar",
@@ -702,7 +865,7 @@
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 43%. Confidence: 50%; target date 2026-10-23."
+                "Progress: 57%. Confidence: 50%; target date 2026-10-23."
               ],
               "bullets": [],
               "evidence": [],
@@ -751,7 +914,68 @@
                 "A confirmed reflection on the work completed has not been added yet."
               ],
               "bullets": [],
-              "evidence": [],
+              "evidence": [
+                {
+                  "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+                  "title": "Advocating to UX guidelines with DoD checklist - 1",
+                  "metadata": "2026-09-03 · screenshot · progress",
+                  "relationship": "progress",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+                  "title": "Advocating to UX guidelines and principles by DoD - 2",
+                  "metadata": "2026-09-03 · screenshot · progress",
+                  "relationship": "progress",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-84229a19-19c8-4801-bd3a-0177c73f63b8",
+                  "title": "Work allocated and tracked in backlog",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "More than 90% of work has been tracked in GitHub",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.48.19 PM.png",
+                  "assetPath": "published/assets/46c5bb00a2c32a3ec8ae8c3bc49b5987a6d222ae51c982c67e840d656d21ea61.png"
+                },
+                {
+                  "id": "evidence-ea1cc717-d403-4385-a7a2-35465d059b1b",
+                  "title": "Backlog tracked in Github",
+                  "metadata": "2026-09-03 · metric · progress",
+                  "relationship": "progress",
+                  "note": "Backlog tracked in GitHub",
+                  "sourceUrl": null,
+                  "fileName": null,
+                  "assetPath": null
+                },
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                }
+              ],
               "children": []
             },
             {
@@ -761,6 +985,66 @@
               ],
               "bullets": [],
               "evidence": [
+                {
+                  "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+                  "title": "Advocating to UX guidelines with DoD checklist - 1",
+                  "metadata": "2026-09-03 · screenshot · progress",
+                  "relationship": "progress",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+                  "title": "Advocating to UX guidelines and principles by DoD - 2",
+                  "metadata": "2026-09-03 · screenshot · progress",
+                  "relationship": "progress",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-84229a19-19c8-4801-bd3a-0177c73f63b8",
+                  "title": "Work allocated and tracked in backlog",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "More than 90% of work has been tracked in GitHub",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.48.19 PM.png",
+                  "assetPath": "published/assets/46c5bb00a2c32a3ec8ae8c3bc49b5987a6d222ae51c982c67e840d656d21ea61.png"
+                },
+                {
+                  "id": "evidence-ea1cc717-d403-4385-a7a2-35465d059b1b",
+                  "title": "Backlog tracked in Github",
+                  "metadata": "2026-09-03 · metric · progress",
+                  "relationship": "progress",
+                  "note": "Backlog tracked in GitHub",
+                  "sourceUrl": null,
+                  "fileName": null,
+                  "assetPath": null
+                },
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                },
                 {
                   "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
                   "title": "Edge cases for Calendar",
@@ -777,9 +1061,11 @@
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 11%. Confidence: 50%."
+                "Progress: 44%. Confidence: 50%."
               ],
-              "bullets": [],
+              "bullets": [
+                "2026-09-03: Goal 2 — 90 — Backlog tracked in GitHub"
+              ],
               "evidence": [],
               "children": []
             },
@@ -828,6 +1114,86 @@
               "bullets": [],
               "evidence": [
                 {
+                  "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+                  "title": "Wholistic view of OneSpace with stakeholders",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+                  "sourceUrl": null,
+                  "fileName": "OneSpace UX - Frame 136.jpg",
+                  "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+                },
+                {
+                  "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+                  "title": "Advocating to UX guidelines with DoD checklist - 1",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+                  "title": "Advocating to UX guidelines and principles by DoD - 2",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Cintributed to SImplify",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+                  "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+                },
+                {
+                  "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Unite principles",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+                  "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+                },
+                {
+                  "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Elevate",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+                  "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+                },
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                },
+                {
                   "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
                   "title": "Digital Design Guild - AI Upskill - Shareout",
                   "metadata": "2026-09-02 · screenshot · supports",
@@ -848,6 +1214,86 @@
               "bullets": [],
               "evidence": [
                 {
+                  "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+                  "title": "Wholistic view of OneSpace with stakeholders",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+                  "sourceUrl": null,
+                  "fileName": "OneSpace UX - Frame 136.jpg",
+                  "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+                },
+                {
+                  "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+                  "title": "Advocating to UX guidelines with DoD checklist - 1",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+                  "title": "Advocating to UX guidelines and principles by DoD - 2",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                  "sourceUrl": null,
+                  "fileName": "General Design guidelines-2.png",
+                  "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+                },
+                {
+                  "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Cintributed to SImplify",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+                  "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+                },
+                {
+                  "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Unite principles",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+                  "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+                },
+                {
+                  "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+                  "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Contributed to Elevate",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+                  "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+                },
+                {
+                  "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                  "title": "Created structured requirement for Calendar intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                  "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+                },
+                {
+                  "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                  "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                  "metadata": "2026-09-03 · screenshot · supports",
+                  "relationship": "supports",
+                  "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                  "sourceUrl": null,
+                  "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                  "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+                },
+                {
                   "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
                   "title": "Digital Design Guild - AI Upskill - Shareout",
                   "metadata": "2026-09-02 · screenshot · supports",
@@ -863,7 +1309,7 @@
             {
               "title": "Progress",
               "paragraphs": [
-                "Progress: 20%. Confidence: 50%."
+                "Progress: 60%. Confidence: 50%."
               ],
               "bullets": [],
               "evidence": [],
@@ -906,18 +1352,18 @@
         "status": "active",
         "createdAt": "2026-01-05T09:00:00Z"
       },
-      "generatedAt": "2026-09-02T07:31:43.903Z",
+      "generatedAt": "2026-09-03T18:33:08.882Z",
       "evidenceDisclosure": "include_excerpts",
       "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
       "sections": [
         {
           "title": "Annual overview",
           "paragraphs": [
-            "Measured goal progress is 30%. Evidence coverage is reported separately and does not change the progress calculation."
+            "Measured goal progress is 67%. Evidence coverage is reported separately and does not change the progress calculation."
           ],
           "bullets": [
-            "Evidence coverage: 4 of 5 active goals (80%)",
-            "Evidence captured: 3",
+            "Evidence coverage: 5 of 5 active goals (100%)",
+            "Evidence captured: 13",
             "Measured goals: 5 of 5"
           ],
           "evidence": [],
@@ -935,7 +1381,7 @@
                 "Customer experience, execution excellence, and design-development alignment."
               ],
               "bullets": [
-                "Progress: 43%",
+                "Progress: 57%",
                 "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
@@ -947,8 +1393,8 @@
                   ],
                   "bullets": [
                     "Status: in progress",
-                    "Progress: 43%",
-                    "Confirmed evidence items: 1",
+                    "Progress: 57%",
+                    "Confirmed evidence items: 3",
                     "Due date: 2026-10-23"
                   ],
                   "evidence": [],
@@ -962,7 +1408,7 @@
                 "Predictable and repeatable design workflows."
               ],
               "bullets": [
-                "Progress: 11%",
+                "Progress: 44%",
                 "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
@@ -974,8 +1420,8 @@
                   ],
                   "bullets": [
                     "Status: in progress",
-                    "Progress: 11%",
-                    "Confirmed evidence items: 1"
+                    "Progress: 44%",
+                    "Confirmed evidence items: 7"
                   ],
                   "evidence": [],
                   "children": []
@@ -1014,7 +1460,7 @@
                 "Strategic communication, shared standards, and collaboration."
               ],
               "bullets": [
-                "Progress: 20%",
+                "Progress: 60%",
                 "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
@@ -1026,8 +1472,8 @@
                   ],
                   "bullets": [
                     "Status: in progress",
-                    "Progress: 20%",
-                    "Confirmed evidence items: 1"
+                    "Progress: 60%",
+                    "Confirmed evidence items: 9"
                   ],
                   "evidence": [],
                   "children": []
@@ -1040,8 +1486,8 @@
                 "The professional behaviours that make outcomes sustainable."
               ],
               "bullets": [
-                "Progress: 0%",
-                "Evidence coverage: 0 of 1 goals (0%)"
+                "Progress: 100%",
+                "Evidence coverage: 1 of 1 goals (100%)"
               ],
               "evidence": [],
               "children": [
@@ -1051,9 +1497,9 @@
                     "No intended-impact description is recorded."
                   ],
                   "bullets": [
-                    "Status: in progress",
-                    "Progress: 0%",
-                    "Confirmed evidence items: 0"
+                    "Status: achieved",
+                    "Progress: 100%",
+                    "Confirmed evidence items: 6"
                   ],
                   "evidence": [],
                   "children": []
@@ -1078,6 +1524,106 @@
               "sourceUrl": null,
               "fileName": "EdgeCases_Calendar.md",
               "assetPath": null
+            },
+            {
+              "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+              "title": "Wholistic view of OneSpace with stakeholders",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+              "sourceUrl": null,
+              "fileName": "OneSpace UX - Frame 136.jpg",
+              "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+            },
+            {
+              "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+              "title": "Advocating to UX guidelines with DoD checklist - 1",
+              "metadata": "2026-09-03 · screenshot · progress",
+              "relationship": "progress",
+              "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+              "sourceUrl": null,
+              "fileName": "General Design guidelines-2.png",
+              "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+            },
+            {
+              "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+              "title": "Advocating to UX guidelines and principles by DoD - 2",
+              "metadata": "2026-09-03 · screenshot · progress",
+              "relationship": "progress",
+              "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+              "sourceUrl": null,
+              "fileName": "General Design guidelines-2.png",
+              "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+            },
+            {
+              "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+              "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "Cintributed to SImplify",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+              "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+            },
+            {
+              "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+              "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "Contributed to Unite principles",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+              "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+            },
+            {
+              "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+              "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "Contributed to Elevate",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+              "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+            },
+            {
+              "id": "evidence-84229a19-19c8-4801-bd3a-0177c73f63b8",
+              "title": "Work allocated and tracked in backlog",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "More than 90% of work has been tracked in GitHub",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-03 at 11.48.19 PM.png",
+              "assetPath": "published/assets/46c5bb00a2c32a3ec8ae8c3bc49b5987a6d222ae51c982c67e840d656d21ea61.png"
+            },
+            {
+              "id": "evidence-ea1cc717-d403-4385-a7a2-35465d059b1b",
+              "title": "Backlog tracked in Github",
+              "metadata": "2026-09-03 · metric · progress",
+              "relationship": "progress",
+              "note": "Backlog tracked in GitHub",
+              "sourceUrl": null,
+              "fileName": null,
+              "assetPath": null
+            },
+            {
+              "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+              "title": "Created structured requirement for Calendar intake workshop",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+              "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+            },
+            {
+              "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+              "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+              "metadata": "2026-09-03 · screenshot · supports",
+              "relationship": "supports",
+              "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+              "sourceUrl": null,
+              "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+              "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
             },
             {
               "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
@@ -1136,7 +1682,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1146,7 +1692,7 @@
               "Customer experience, execution excellence, and design-development alignment."
             ],
             "bullets": [
-              "Progress: 43%",
+              "Progress: 57%",
               "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
@@ -1158,8 +1704,8 @@
                 ],
                 "bullets": [
                   "Status: in progress",
-                  "Progress: 43%",
-                  "Confirmed evidence items: 1",
+                  "Progress: 57%",
+                  "Confirmed evidence items: 3",
                   "Due date: 2026-10-23"
                 ],
                 "evidence": [],
@@ -1184,7 +1730,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1194,7 +1740,7 @@
               "Predictable and repeatable design workflows."
             ],
             "bullets": [
-              "Progress: 11%",
+              "Progress: 44%",
               "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
@@ -1206,8 +1752,8 @@
                 ],
                 "bullets": [
                   "Status: in progress",
-                  "Progress: 11%",
-                  "Confirmed evidence items: 1"
+                  "Progress: 44%",
+                  "Confirmed evidence items: 7"
                 ],
                 "evidence": [],
                 "children": []
@@ -1231,7 +1777,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1278,7 +1824,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1288,7 +1834,7 @@
               "Strategic communication, shared standards, and collaboration."
             ],
             "bullets": [
-              "Progress: 20%",
+              "Progress: 60%",
               "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
@@ -1300,8 +1846,8 @@
                 ],
                 "bullets": [
                   "Status: in progress",
-                  "Progress: 20%",
-                  "Confirmed evidence items: 1"
+                  "Progress: 60%",
+                  "Confirmed evidence items: 9"
                 ],
                 "evidence": [],
                 "children": []
@@ -1325,7 +1871,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1335,8 +1881,8 @@
               "The professional behaviours that make outcomes sustainable."
             ],
             "bullets": [
-              "Progress: 0%",
-              "Evidence coverage: 0 of 1 goals (0%)"
+              "Progress: 100%",
+              "Evidence coverage: 1 of 1 goals (100%)"
             ],
             "evidence": [],
             "children": [
@@ -1346,9 +1892,9 @@
                   "No intended-impact description is recorded."
                 ],
                 "bullets": [
-                  "Status: in progress",
-                  "Progress: 0%",
-                  "Confirmed evidence items: 0"
+                  "Status: achieved",
+                  "Progress: 100%",
+                  "Confirmed evidence items: 6"
                 ],
                 "evidence": [],
                 "children": []
@@ -1374,7 +1920,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1479,7 +2025,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1489,9 +2035,9 @@
               "No intended-impact description is recorded."
             ],
             "bullets": [
-              "Status: in progress",
-              "Progress: 0%",
-              "Confirmed evidence items: 0"
+              "Status: achieved",
+              "Progress: 100%",
+              "Confirmed evidence items: 6"
             ],
             "evidence": [],
             "children": []
@@ -1500,13 +2046,74 @@
             "title": "Linked evidence",
             "paragraphs": [],
             "bullets": [],
-            "evidence": [],
+            "evidence": [
+              {
+                "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+                "title": "Wholistic view of OneSpace with stakeholders",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+                "sourceUrl": null,
+                "fileName": "OneSpace UX - Frame 136.jpg",
+                "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+              },
+              {
+                "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+                "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Cintributed to SImplify",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+                "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+              },
+              {
+                "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+                "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Contributed to Unite principles",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+                "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+              },
+              {
+                "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+                "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Contributed to Elevate",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+                "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+              },
+              {
+                "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                "title": "Created structured requirement for Calendar intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+              },
+              {
+                "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+              }
+            ],
             "children": []
           },
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 0%. Confidence: 50%."
+              "Progress: 100%. Confidence: 50%."
             ],
             "bullets": [],
             "evidence": [],
@@ -1573,7 +2180,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1584,8 +2191,8 @@
             ],
             "bullets": [
               "Status: in progress",
-              "Progress: 43%",
-              "Confirmed evidence items: 1",
+              "Progress: 57%",
+              "Confirmed evidence items: 3",
               "Due date: 2026-10-23"
             ],
             "evidence": [],
@@ -1596,6 +2203,26 @@
             "paragraphs": [],
             "bullets": [],
             "evidence": [
+              {
+                "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                "title": "Created structured requirement for Calendar intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+              },
+              {
+                "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+              },
               {
                 "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
                 "title": "Edge cases for Calendar",
@@ -1612,7 +2239,7 @@
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 43%. Confidence: 50%; target date 2026-10-23."
+              "Progress: 57%. Confidence: 50%; target date 2026-10-23."
             ],
             "bullets": [],
             "evidence": [],
@@ -1679,7 +2306,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1690,8 +2317,8 @@
             ],
             "bullets": [
               "Status: in progress",
-              "Progress: 11%",
-              "Confirmed evidence items: 1"
+              "Progress: 44%",
+              "Confirmed evidence items: 7"
             ],
             "evidence": [],
             "children": []
@@ -1701,6 +2328,66 @@
             "paragraphs": [],
             "bullets": [],
             "evidence": [
+              {
+                "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+                "title": "Advocating to UX guidelines with DoD checklist - 1",
+                "metadata": "2026-09-03 · screenshot · progress",
+                "relationship": "progress",
+                "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                "sourceUrl": null,
+                "fileName": "General Design guidelines-2.png",
+                "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+              },
+              {
+                "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+                "title": "Advocating to UX guidelines and principles by DoD - 2",
+                "metadata": "2026-09-03 · screenshot · progress",
+                "relationship": "progress",
+                "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                "sourceUrl": null,
+                "fileName": "General Design guidelines-2.png",
+                "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+              },
+              {
+                "id": "evidence-84229a19-19c8-4801-bd3a-0177c73f63b8",
+                "title": "Work allocated and tracked in backlog",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "More than 90% of work has been tracked in GitHub",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.48.19 PM.png",
+                "assetPath": "published/assets/46c5bb00a2c32a3ec8ae8c3bc49b5987a6d222ae51c982c67e840d656d21ea61.png"
+              },
+              {
+                "id": "evidence-ea1cc717-d403-4385-a7a2-35465d059b1b",
+                "title": "Backlog tracked in Github",
+                "metadata": "2026-09-03 · metric · progress",
+                "relationship": "progress",
+                "note": "Backlog tracked in GitHub",
+                "sourceUrl": null,
+                "fileName": null,
+                "assetPath": null
+              },
+              {
+                "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                "title": "Created structured requirement for Calendar intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+              },
+              {
+                "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+              },
               {
                 "id": "evidence-abdf1a98-3a18-424e-8565-04482090b916",
                 "title": "Edge cases for Calendar",
@@ -1717,9 +2404,11 @@
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 11%. Confidence: 50%."
+              "Progress: 44%. Confidence: 50%."
             ],
-            "bullets": [],
+            "bullets": [
+              "2026-09-03: 90 — Backlog tracked in GitHub"
+            ],
             "evidence": [],
             "children": []
           },
@@ -1784,7 +2473,7 @@
           "status": "active",
           "createdAt": "2026-01-05T09:00:00Z"
         },
-        "generatedAt": "2026-09-02T07:31:43.903Z",
+        "generatedAt": "2026-09-03T18:33:08.882Z",
         "evidenceDisclosure": "include_excerpts",
         "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
         "sections": [
@@ -1795,8 +2484,8 @@
             ],
             "bullets": [
               "Status: in progress",
-              "Progress: 20%",
-              "Confirmed evidence items: 1"
+              "Progress: 60%",
+              "Confirmed evidence items: 9"
             ],
             "evidence": [],
             "children": []
@@ -1806,6 +2495,86 @@
             "paragraphs": [],
             "bullets": [],
             "evidence": [
+              {
+                "id": "evidence-529689c8-4217-42a8-852a-688e6e29ac90",
+                "title": "Wholistic view of OneSpace with stakeholders",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "In the conversation of facility management, i urged to look into other cogs of OneSpace holistically, and convinced the stakeholders, that there should not be separate user management and facility management. Rather existing user management should be enhanced to location management.",
+                "sourceUrl": null,
+                "fileName": "OneSpace UX - Frame 136.jpg",
+                "assetPath": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg"
+              },
+              {
+                "id": "evidence-28ea566b-b121-45a9-bdf4-a8905271eae9",
+                "title": "Advocating to UX guidelines with DoD checklist - 1",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                "sourceUrl": null,
+                "fileName": "General Design guidelines-2.png",
+                "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+              },
+              {
+                "id": "evidence-046f213d-f361-4c00-b7c0-7c75fac04a3c",
+                "title": "Advocating to UX guidelines and principles by DoD - 2",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a checklist for Definition of Done, which is planned to be incorporated in UX principles",
+                "sourceUrl": null,
+                "fileName": "General Design guidelines-2.png",
+                "assetPath": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png"
+              },
+              {
+                "id": "evidence-12fd1600-bc8d-4af6-8bb6-21924794f4ff",
+                "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality.",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Cintributed to SImplify",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.38.45 PM.png",
+                "assetPath": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png"
+              },
+              {
+                "id": "evidence-a0f9cf01-1b9a-4742-afe0-d96c89b60f7f",
+                "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. -2",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Contributed to Unite principles",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.38.53 PM.png",
+                "assetPath": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png"
+              },
+              {
+                "id": "evidence-9b1d8178-3695-43ca-91ac-09070d098de9",
+                "title": "Contributed to SE team UX principles for improvement in design process and elevate the quality. - 3",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Contributed to Elevate",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.38.58 PM.png",
+                "assetPath": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png"
+              },
+              {
+                "id": "evidence-037f99d4-7f48-4f16-b16e-4a593fa75847",
+                "title": "Created structured requirement for Calendar intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Calendar for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.38 PM.png",
+                "assetPath": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png"
+              },
+              {
+                "id": "evidence-d91692c1-6b41-49ee-a428-9f9e3cec9a7f",
+                "title": "Created a structured requirement document for Contracts and Warranties intake workshop",
+                "metadata": "2026-09-03 · screenshot · supports",
+                "relationship": "supports",
+                "note": "Created a detailed PRD document for Contracts and Warranties for Service Manager, and got an agreement from stakeholders.",
+                "sourceUrl": null,
+                "fileName": "Screenshot 2026-09-03 at 11.52.56 PM.png",
+                "assetPath": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png"
+              },
               {
                 "id": "evidence-da0d520e-d133-4942-af9e-de504770e01e",
                 "title": "Digital Design Guild - AI Upskill - Shareout",
@@ -1822,7 +2591,7 @@
           {
             "title": "Progress",
             "paragraphs": [
-              "Progress: 20%. Confidence: 50%."
+              "Progress: 60%. Confidence: 50%."
             ],
             "bullets": [],
             "evidence": [],
@@ -1890,7 +2659,7 @@
         "status": "active",
         "createdAt": "2026-01-05T09:00:00Z"
       },
-      "generatedAt": "2026-09-02T07:31:43.903Z",
+      "generatedAt": "2026-09-03T18:33:08.882Z",
       "evidenceDisclosure": "include_excerpts",
       "privacyNote": "Evidence images, source links, and short note excerpts are included. PDF and Office attachments are listed by name only. Absolute local paths are never included.",
       "sections": [
@@ -1911,10 +2680,58 @@
   },
   "assets": [
     {
+      "id": "9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7",
+      "path": "published/assets/9e5e12103e1b2ce6724cdc94d71193dc5b4b4e8e7b04b5ff6ed2b110673aa9b7.png",
+      "mimeType": "image/png",
+      "byteLength": 450227
+    },
+    {
+      "id": "6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e",
+      "path": "published/assets/6c4a52f0344e851699f7a1ae98cb7a2a11e366ba33bccbe4a54adad33c98770e.png",
+      "mimeType": "image/png",
+      "byteLength": 455575
+    },
+    {
+      "id": "531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68",
+      "path": "published/assets/531aaea350d982996dd9ba302d7ec3cc972034798fae970e2f80784ae8551c68.png",
+      "mimeType": "image/png",
+      "byteLength": 204778
+    },
+    {
+      "id": "31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3",
+      "path": "published/assets/31aab21c5d7f91076549d1c6f7cde51ab5a6e58775f23f3ff440f3f61576a7b3.jpg",
+      "mimeType": "image/jpeg",
+      "byteLength": 756037
+    },
+    {
       "id": "af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842",
       "path": "published/assets/af637f754d40a71dfb23fcb2df6f06fb8a5a3c65bd620be5e0043c1471d2d842.png",
       "mimeType": "image/png",
       "byteLength": 177173
+    },
+    {
+      "id": "46c5bb00a2c32a3ec8ae8c3bc49b5987a6d222ae51c982c67e840d656d21ea61",
+      "path": "published/assets/46c5bb00a2c32a3ec8ae8c3bc49b5987a6d222ae51c982c67e840d656d21ea61.png",
+      "mimeType": "image/png",
+      "byteLength": 979064
+    },
+    {
+      "id": "5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598",
+      "path": "published/assets/5085caeeb5cf9a570425e5f91828f08d9b01f9b692444e6674ca99fb2d73f598.png",
+      "mimeType": "image/png",
+      "byteLength": 80954
+    },
+    {
+      "id": "87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9",
+      "path": "published/assets/87373e087453941906daf92f122cc481f79549bd6a33c2848cf57a87f52e19b9.png",
+      "mimeType": "image/png",
+      "byteLength": 165160
+    },
+    {
+      "id": "5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63",
+      "path": "published/assets/5aa1af079d2b5e231dbf793e878eb353ab821e4a8f89164d16e13edfd141dc63.png",
+      "mimeType": "image/png",
+      "byteLength": 299780
     },
     {
       "id": "e540c1ca27f03b3fcc793eee1f0bfe6f974e41a50b671348efa0b42180bb1185",
